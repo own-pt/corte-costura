@@ -1,0 +1,23 @@
+## -------
+## Ficheiro de registo do programa acdc_corte-e-costura.pl
+## Rev: 59  Data da última alteração: 2010-07-28 01:38:59 -0400 (Qua, 28 Jul 2010) 
+## -------
+## Hora de início: 17 Ago 2010, 13:07:16
+
+Na posição 1574 disparou a regra: 0[word="Marinho"] 0[lema="marinho"] >> 0[deriv="01"] 0[pos="PROP"] 0[lema="Marinho"].
+Na posição 4071 disparou a regra: 0[word="Pedras"] 1[lema="rubro"] >> 0[deriv="02"] 0[lema="Pedras=Rubras"] 0[pos="PROP"] 0[sema="cor:original"] 1[deriv="02"] 1[lema="Pedras=Rubras"] 1[pos="PROP"] 0<mwe deriv="02" lema="Pedras=Rubras" pos="PROP" sema="cor:original"> 1</mwe>.
+Na posição 4636 disparou a regra: 0[word="tona"] 1[word="de"] 2[lema="marinho"] >> 0[deriv="06"] 0[word="tons"] 0[lema="tom"] 0[gen="M"].
+Na posição 5308 disparou a regra: 0[lema="vinho"] 1[lema="tingir"] 1[word="tinto"] >> 1[deriv="07"] 1[lema="tinto"] 1[pos="ADJ"] 1[temcagr="0"].
+Na posição 6231 disparou a regra: 0[lema="pigmento|tafetá|veludo"] 1[lema="rubi"] >> 1[deriv="10"] 1[pos="ADJ"].
+Na posição 6471 disparou a regra: 0[lema="cetim|tafetá|tom"] 1[word="pérola"] 1[pos="N"] >> 1[deriv="09"] 1[pos="ADJ"] 1[gen="M"].
+Na posição 6712 disparou a regra: 0[lema="vermelhão"] >> 0[deriv="04"] 0[lema="vermelho"] 0[temcagr="AUM"].
+Na posição 6988 disparou a regra: 0[lema="ultravioleto"] >> 0[deriv="05"] 0[lema="ultravioleta"].
+Na posição 8555 disparou a regra: 0[lema="vermelhão"] >> 0[deriv="04"] 0[lema="vermelho"] 0[temcagr="AUM"].
+Na posição 10085 disparou a regra: 0[lema="vegetal|legume"] 1[lema="verde"] >> 0<mwe> 1</mwe>.
+Na posição 10420 disparou a regra: 0[lema="vegetal|legume"] 1[lema="verde"] >> 0<mwe> 1</mwe>.
+Na posição 10517 disparou a regra: 0[lema="vegetal|legume"] 1[lema="verde"] >> 0<mwe> 1</mwe>.
+Na posição 13099 disparou a regra: 0[word="amarelo"] 1[word=","] 2[word="beige"] 3[word=","] 4[word="cinza"] >> 0[pos="ADJ"] 0[temcagr="0"] 0[func="PRED>"].
+Na posição 14748 disparou a regra: 0[lema="azulinho"] >> 0[deriv="03"] 0[lema="azul"] 0[temcagr="DIM"].
+Na posição 15018 disparou a regra: 0[lema="ser"] 1[lema="alvo"] 1[func="<SC"] 2[pos="ADV.*"] 3[lema="de.*"] 3[pos="PRP.*"] >> 1[deriv="08"] 1[pos="N"].
+
+## Hora de fim: 17 Ago 2010, 13:07:23

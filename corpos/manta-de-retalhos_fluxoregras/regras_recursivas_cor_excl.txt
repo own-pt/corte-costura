@@ -1,0 +1,8 @@
+# Regras recursivas
+# Última actualização: 3 de Agosto de 2010
+#
+# Estas regras, invocadas no fim das outras todas, são pensadas para 
+# tratar listas e casos em que tenham de ser invocadas mais do que uma vez
+
+
+# Não foram criadas regras exclusivas recursivas para a manta de retalhos.

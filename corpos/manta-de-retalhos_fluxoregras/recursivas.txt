@@ -1,0 +1,21 @@
+# Regras recursivas
+# Última actualização: 21 de Julho de 2009
+#
+# Estas regras, invocadas no fim das outras todas, são pensadas para 
+# tratar listas e casos em que tenham de ser invocadas mais do que uma vez
+
+a:[lema="aço|areia|banana|bois-de-rose|borgonha|caramelo|celeste|cereja|champanhe|chocolate|cinza|cobre|coral|creme|havano|marfim|marinho|pérola|pêssego|royal|turquesa|uva|violeta" & pessnum="S"] b:[lema=",|e|ou"] c:[sema="cor"] >> a:[deriv="34" & sema="cor"]
+
+a:[sema="cor"] b:[word="e|ou|,"] c:[lema="aço|alperce|ameixa|areia|avelã|banana|canário|celeste|champanhe|cru|damasco|estopa|limão|lilás|lousa|marinho|marfim|melão|pêssego|salmão|tangerina|terra|tijolo|rosé|ultramarino|verde|mel" & pessnum="S"] >> c:[deriv="35" & sema="cor"]
+
+<mwe sema="cor"> * </mwe> [lema=",|e|ou"] a:[lema="aço|açafrão|areia|banana|borgonha|caramelo|celeste|cereja|champanhe|chocolate|cinza|cobre|coral|creme|marinho|marfim|pêssego|turquesa|uva|violeta" & pessnum="S"] >> a:[deriv="36" & sema="cor"]
+
+
+# Regras recursivas
+# Última actualização: 3 de Agosto de 2010
+#
+# Estas regras, invocadas no fim das outras todas, são pensadas para 
+# tratar listas e casos em que tenham de ser invocadas mais do que uma vez
+
+
+# Não foram criadas regras exclusivas recursivas para a manta de retalhos.

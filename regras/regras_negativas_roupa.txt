@@ -1,0 +1,9 @@
+# Regras negativas sobre a roupa
+# Última versão: 26 de Julho de 2010
+
+# manto
+a:[lema="manto"] [word="de"] [word="cravos"] >> a:[sema="0" & grupo="0"]
+
+# coroa
+
+a:[lema="coroa"] [word="de"] [word="vulgaridade"] >> a:[sema="0" & grupo="0"]

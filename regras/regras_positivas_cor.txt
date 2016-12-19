@@ -1,0 +1,36 @@
+# Regras positivas para a cor
+# Última versão: 13 de Julho de 2010
+#
+# Regras que já pressupõem que o grosso das outras palavras estão
+# marcadas como cor, e é só para adicionar os casos de palavras que
+# raramente têm essa acepção
+
+
+a:[lema="tom|cor|côr"] b:[lema="âmbar|café|caramelo|cereja|champanhe|chocolate|cinza|cobre|coral|creme|cru|encarniçado|goiaba|grafite|laranja|malva|marfim|marinho|ouro|pérolapêssego|prata|rubi|salmão|terroso|turquesa"] >> b:[sema="cor"]
+
+a:[lema="tom"] b:[word="de"] c:[lema="aço|âmbar|areia|carne|malva|marfim|marinho|morango|ouro|pérola|pêssego|violeta"] >> c:[sema="cor"]
+
+a:[lema="blusa|cetim|cor|couro|crepe|em|feltro|fio|fustão|georgetter|lã|listras|lycra|modêlo|o|saia|seda|tecido|tom|veludo|vestido"] b:[lema="marinho|turmalina"] >> b:[sema="cor"]
+
+a:[lema="damasco"] [word="e"] b:[lema="melão"] >> a:[sema="cor"] b:[sema="cor"]
+
+a:[lema="bicicleta|divã|vestimenta"] b:[lema="celeste"] >> b:[sema="cor"]
+
+a:[lema="tom"] b:[lema="desmaiado"] c:[lema="de"] d:[lema="canário"] >> d:[sema="cor"] #Clássicos da LP
+
+a:[lema="água|tribo"] b:[lema="esmeraldino"] >> b:[sema="cor"]
+
+
+#regras para encarniçado
+
+a:[lema="folha|orelha"] b:[lema="encarniçado"] >> b:[sema="cor"] 
+a:[lema="corpo|esbugalhado"] b:[lema=","] c:[lema="encarniçado"] >> c:[sema="cor"] 
+
+
+# regras para branqueamento
+a:[lema="estágio|moldadeira|registar|recuperar"] b:[lema="de|o"] c:[lema="branqueamento"] >> c:[sema="cor"]
+a:[lema="branqueamento"] b:[lema="asséptico|massivo|retirar"] >> a:[sema="cor"]
+
+# regras para aumentativos
+a:[word="amarelão"] b:[word="Smile"] >> a:[sema="cor"]
+

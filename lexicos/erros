@@ -1,0 +1,25 @@
+Atenção! cor sem grupo, mel: mel	mel	N	0	S	M	P<_<PRED	35	cor
+ -- Outros: terrosa	terroso	ADJ	0	S	F	N<	31	cor	Outras:terroso
+Atenção! cor sem grupo, pastel: pastel	pastel	N	0	S	M	P<	32	cor
+ -- Outros: colete	colete	N	0	S	M	SUBJ>	0	roupa	Blusão_CasacoCurtoHomem_CasacoCurtoMulher_Outras_unissexo:colete
+ -- Outros: colete	colete	N	0	S	M	P<	0	roupa	Blusão_CasacoCurtoHomem_CasacoCurtoMulher_Outras_unissexo:colete
+Atenção! roupa sem grupo, calçar: calça	calçar	V_fmc	PR_IND	3S	0	FMV	0	roupa
+Atenção! roupa sem grupo, abotoar: abotoado	abotoar	V	PCP	S	M	NPHR	0	roupa
+Atenção! cor sem grupo, pastel: pastel	pastel	N	0	S	M	<PRED	31	cor
+Atenção! cor sem grupo, açafrão: açafrão	açafrão	N	0	S	M	N<PRED	36	cor
+ -- Outros: damasco	damasco	N	0	S	M	P<	33	cor	Outras:damasco
+ -- Outros: melão	melão	N	0	S	M	P<	35	cor	Outras:melão
+ -- Outros: Túnicas	túnica	N	0	P	F	S<	0	roupa	Outras:túnica
+ -- Outros: Túnica	túnica	N	0	S	F	<PRED	0	roupa	Outras:túnica
+ -- Pele: corado	corar	V	PCP	S	M	IMV_#ICL-<PRED	0	cor
+ -- Pele: morena	moreno	ADJ	0	S	F	N<	0	cor
+Atenção! cor sem grupo, havano: havana	havano	ADJ	0	S	F	N<PRED	34	cor
+ -- Outros: champanhe	champanhe	N	0	S	F	SUBJ>	34	cor	Outras:champanhe
+ -- Outros: salmon	salmon	N	0	S	M	<PRED	0	cor	Outras:salmon
+Atenção! cor sem grupo, havano: havana	havano	ADJ	0	S	F	N<PRED	34	cor
+Atenção! cor sem grupo, havano: havana	havano	ADJ	0	S	F	<PRED	34	cor
+ -- Outros: brique	brique	N	0	S	M	<PRED	0	cor	Outras:brique
+Atenção! cor sem grupo, havano: havana	havano	ADJ	0	S	F	NPHR	34	cor
+ -- Outros: brique	brique	N	0	S	M	NPHR	0	cor	Outras:brique
+ -- Outros: areia	areia	N	0	S	F	NPHR	34	cor	Outras:areia
+ -- Outros: túnica	túnica	N	0	S	F	P<	0	roupa	Outras:túnica

@@ -1,0 +1,465 @@
+# sema=cor pos=ADJ
+
+amarelo alaranjado
+amarelo canário
+amarelo limão
+amarelo ouro
+amarelo pérola
+amarelo pimenta
+amarelo sol
+azul alentejano
+azul baptizado hussardo
+azul bebé
+azul celeste
+azul cendrado
+azul cinza
+azul claro
+azul da China
+azul ferrete
+azul forte
+azul gelo
+azul marinho
+azul noite
+azul pérola
+azul Piguet
+azul prada ferrugem
+azul prússia
+Azul rei
+azul retinto
+azul turquesa
+azul ultramarino
+azul violeta
+bege África
+bege coral
+beige areia
+bois de rose
+branco cru
+branco gelo
+branco marfim
+branco óptico
+branco pérola
+brun mauve
+brun rose
+castanho ferrugem
+castanho pátine
+castanho pó de café
+cinza grafite
+cinzento flanela
+cinzento mesclado
+cinzentos Pharaon
+cor da noite escura
+cor da treva
+cor de «acid trip»
+cor de abóbora
+côr de abóbora
+cor de abrunho
+cor de açafrão
+cor de aço
+cor de aço inoxidável
+cor de açúcar
+cor de açúcar queimado
+cor de água
+cor de alcatrão
+côr de alcatrão
+cor de alecrim
+cor de alegria
+cor de alfazema
+côr de alfazema
+cor de âmbar
+cor de âmbar claro
+cor de ameixa
+cor de amêndoa
+cor de ametista
+côr de ametista
+cor de amora madura
+cor de amoras escuras
+cor de ananás
+cor de anil
+cor de antracite
+cor de apoplexia
+cor de ardósia
+côr de ardósia
+cor de areia
+côr de areia
+cor de areia ou terra queimada
+cor de areia quente
+cor de argila
+cor de avelã
+côr de avelã
+cor de azebre
+cor de azeitona
+côr de azeitona
+cor de azinhavres
+cor de banana
+côr de banana
+côr de barbante
+cor de barro
+cor de batata
+cor de beringela
+cor de boca
+cor de borra de vinho
+cor de borra de vinho no fundo
+cor de bosta
+cor de botão-de-oiro
+cor de brasa
+cor de brasa às luzes
+cor de bronze
+côr de bronze
+cor de burro
+cor de burro quando foge
+cor de burro-quando-foge
+cor de café
+cor de café com leite
+côr de café com leite
+côr de café em pó
+cor de camelo
+cor de camurça
+cor de cana
+cor de canário
+cor de canela
+côr de canela
+cor de caqui camuflado
+cor de caramelo
+côr de caramelo
+cor de caramelo torrado
+cor de carmesim
+cor de carmim
+cor de carne
+côr de carne
+cor de casca de ovo
+cor de castanha
+cor de castanho
+cor de castor
+cor de cedro
+cor de cenoura
+cor de cera
+cor de cereja
+côr de cereja
+cor de chama
+cor de champanhe
+côr de champanhe
+côr de charuto
+cor de chocolate
+côr de chocolate
+cor de chumbo
+côr de chumbo
+cor de ciclamen
+cor de cidra
+cor de cimento
+cor de cinza
+côr de cinza
+cor de cinza escura
+cor de citrina
+cor de cobre
+côr de cobre
+cor de Coca-Cola
+cor de cólera
+cor de colmo bolorento
+cor de colorau
+cor de coral
+côr de coral
+cor de couro
+cor de cravo
+cor de creme
+côr de creme
+cor de crime e traição
+cor de cuia
+cor de damasco
+cor de ébano
+côr de elefante
+cor de enxofre
+côr de esmalte
+cor de esmeralda
+cor de espiga de milho
+cor de fada
+cor de ferro
+cor de ferro velho
+cor de ferrugem
+côr de ferrugem
+cor de ferrugem metalizada
+cor de ferrugem-carregado
+cor de flamingo
+côr de flor de alecrim
+cor de fogo
+côr de fogo
+cor de fogo alaranjado
+côr de fogo e bosque
+cor de folha morta
+cor de framboesa
+cor de fúcsia
+cor de fumo
+cor de gelado
+cor de gelo
+cor de gema
+cor de gema de ovo
+cor de gengibre
+cor de gerânio
+cor de gesso
+cor de ginja
+cor de glicínia
+cor de granada
+cor de granito
+cor de grão
+cor de greda
+cor de inferno
+cor de iodo
+cor de jaca passada
+cor de jade
+cor de jambo
+cor de jaspe
+cor de lagosta
+cor de lagosta de viveiro
+cor de lama e lodo
+cor de lápis-lazuli
+cor de laranja
+côr de laranja
+cor de laranja avermelhada
+cor de laranja claro
+cor de laranja fluorescente
+cor de laranja fosforescente
+cor de laranja vivo
+cor de leão
+cor de leite
+cor de leite achocolatado
+cor de leopardo
+cor de limão
+côr de limão
+cor de lodo
+côr de lua
+cor de luto
+cor de luvas cirúrgicas
+cor de luz
+cor de madeira
+cor de malva
+côr de malva
+cor de malva rosa
+côr de malva-rosa
+cor de mamão
+cor de mar
+cor de marfim
+cor de marfim velho
+cor de mármore
+cor de massa de vidraceiro
+cor de mel
+côr de mel
+cor de melão
+côr de melão
+cor de mil azuis
+cor de milho
+cor de morango
+cor de morango esborrachado
+cor de moringa
+cor de morte
+cor de mostarda
+côr de mostarda
+cor de musgo
+cor de musgo de Outono
+cor de musgo do Outono
+cor de navio de guerra
+cor de neve
+cor de noz
+cor de ocre
+cor de oiro
+cor de oliva
+cor de opala
+cor de ossos
+cor de ostra
+cor de ouro
+côr de ouro
+cor de ouro claro
+cor de ouro desmaiado
+cor de ouro pálido
+cor de ouro velho
+cor de palha
+côr de palha
+cor de pão queimado
+côr de pão queimado
+cor de papoula
+cor de parma
+cor de pedra
+cor de pele
+cor de pérola
+cor de pêssego
+cor de pimentão
+cor de pinhão
+côr de pinhão
+cor de pinho
+cor de pistache
+cor de pistácia
+cor de pitanga
+côr de platina
+cor de pó de café
+côr de pó de tijolo
+cor de poeira
+cor de pólen
+cor de pombo
+cor de praline laranja
+cor de prata
+cor de prata embaciada
+cor de pudim royal de-laranja
+cor de púrpura
+cor de púrpura viva
+cor de rato
+cor de rebuçado
+côr de rebuçado
+cor de relva
+cor de romã
+cor de rosa
+côr de rosa
+côr de rosa chá
+cor de rosa pálido
+côr de rosa pálido
+cor de rosa velha
+côr de rosa-madrepérola
+cor de roxo
+cor de rubi
+côr de rubi
+cor de rubim
+cor de rúcula
+cor de salmão
+cor de salmão cozido
+cor de sangue
+cor de sangue negro
+cor de sangue seco
+cor de saúde
+cor de sebo
+cor de sol
+cor de sopa de beterrabas
+cor de sulfato de cobre
+cor de tabaco
+côr de tabaco
+cor de tabaco de Havana
+cor de tabaco loiro
+cor de tangerina
+cor de teia de aranha
+cor de telha
+cor de terra
+cor de terracota
+cor de tijolo
+côr de tijolo
+cor de tília
+côr de tília
+cor de tomate
+cor de topázio
+cor de torrado
+cor de trigo
+cor de turquesa
+cor de urze
+cor de veado
+cor de vermelho metalizado
+cor de vinho
+côr de vinho
+cor de vinho acastanhado
+cor de vinho do Porto
+cor de vinho tinto
+cor de violeta
+côr de violeta
+côr de violeta de Parma
+cor de violeta-escura
+cor do âmbar
+cor do miosótis
+côr do oiro
+cor-de-rosa framboesa
+cor-de-rosa pêssego
+cor-de-rosa salmão
+dourado bronze
+gris pérola
+laranja claríssimo
+lilás louco
+lilás violeta de Parma
+limão pálido
+louro cendrado
+marrom terroso
+melão pálido
+oiro das folhas mortas
+oiro velho
+pêssego degradé
+preto mesclado
+rosa acastanhado
+rosa alaranjado
+rosa chá
+rosa choque
+rosa divino
+rosa fuchsia
+rosa pálido
+rosa pombalino
+rosa salmão
+rosa velho
+rosa vivo
+rubi aberto
+rubi carregado
+rubi forte
+rubi intenso
+verde água
+verde alface
+verde amêndoa
+verde bilhar
+verde casto
+verde claro
+verde cru
+verde ervilha
+verde esmeralda
+verde esmeraldino
+verde garrafa
+verde jarro
+verde limão
+verde marinho
+verde oliva
+verde pando
+verde prado
+verde seco
+verde vivo
+verdes musgo
+vermelha violeta
+vermelho coral
+vermelho framboesa
+vermelho maravilha
+vermelho rubí
+vermelho sangue
+vermelho sangue de boi
+vermelho sangue-de-boi
+vermelho sanguíneo
+vermelho violeta
+violeta claro
+violeta desmaiado
+violeta escuro
+
+# sema=cor pos=N
+
+afrikaner retinto
+arma branco
+azul de metileno
+branca retinto
+buraco negro
+cabo verde
+caixa preto
+cartão amarelo
+cartão vermelho
+casa branco
+correio azul
+cruz vermelho
+danúbio azul
+elefante branco
+febre amarelo
+feijão verde
+glóbulo branco
+glóbulo vermelho
+humor negro
+lanterna vermelho
+linha branco
+lista negro
+livro azul
+livro branco
+livro verde
+negro retinto
+nódoa negro
+página amarelo
+pau preto
+peste negro
+preto retinto
+romance cor-de-rosa
+ruiva retinto
+sangue azul
+sorriso amarelo
+tinto retinto
+vida negro

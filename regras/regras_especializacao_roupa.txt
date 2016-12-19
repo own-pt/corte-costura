@@ -1,0 +1,8 @@
+# Regras de especialização relativas à roupa
+# Última versão: 26 de Julho de 2010
+
+a:[lema="gola|bolso"] [lema="d.*" & pos="PRP.*"] [sema="roupa"] >> a:[sema="roupa" & grupo="ElementosRoupa"]
+
+[sema="roupa"] [pos="ADJ"] [word="de"] a:[word="brim|renda"] >> a:[sema="roupa" & grupo="Materiais"] 
+
+[sema="roupa"] [word="de"] a:[word="feltro|plumas"] >> a:[sema="roupa" & grupo="Materiais"] 

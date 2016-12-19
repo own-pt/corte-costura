@@ -1,0 +1,16 @@
+## -------
+## Ficheiro de registo do programa acdc_corte-e-costura.pl
+## Rev: 59  Data da última alteração: 2010-07-28 01:38:59 -0400 (Qua, 28 Jul 2010) 
+## -------
+## Hora de início: 17 Ago 2010, 13:10:33
+
+Na posição 3893 disparou a regra: 0[lema="alimento|batata|carne|castanha|cebola|cenoura|cereal|coiro|comer|comida|consumir|couro|couve|dieta|dor|estado|fatia|fígado|fruta|hortaliça|ingerir|legume|leite|luz|maçã|nabo|ovo|pedaço|peixe|salada|trigo|vegetal|verdura"] 1[lema="cru"] >> 1[deriv="28"] 1[sema="0"].
+Na posição 3899 disparou a regra: 0[lema="verdura"] >> 0[deriv="38ex"] 0[sema="0"] 0[grupo="0"].
+Na posição 8610 disparou a regra: 0[lema="laranja"] 1[lema="gelar|descascar"] >> 0[deriv="29"] 0[sema="0"].
+Na posição 10470 disparou a regra: 0[lema="alimento|batata|carne|castanha|cebola|cenoura|cereal|coiro|comer|comida|consumir|couro|couve|dieta|dor|estado|fatia|fígado|fruta|hortaliça|ingerir|legume|leite|luz|maçã|nabo|ovo|pedaço|peixe|salada|trigo|vegetal|verdura"] 1[lema="cru"] >> 1[deriv="28"] 1[sema="0"].
+Na posição 10724 disparou a regra: 0[lema="verdura"] >> 0[deriv="38ex"] 0[sema="0"] 0[grupo="0"].
+Na posição 13967 disparou a regra: 0[lema="laranja"] 1[lema="gelar|descascar"] >> 0[deriv="29"] 0[sema="0"].
+Na posição 14099 disparou a regra: 0[lema="madeira|móvel"] 1[lema="de"] 2[lema="castanho"] >> 2[deriv="30"] 2[sema="material"].
+Na posição 14799 disparou a regra: 0[lema="colher|dar|recusar|merecer|conquistar|conseguir"] 1[lema="o"] 2[lema="louro"] >> 2[deriv="27"] 2[sema="0"].
+
+## Hora de fim: 17 Ago 2010, 13:10:36

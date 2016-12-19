@@ -1,0 +1,19 @@
+# Regras recursivas para a cor
+# Última actualização: 1 de Agosto de 2010
+#
+# Estas regras, invocadas no fim das outras todas, são pensadas para 
+# tratar listas e casos em que tenham de ser invocadas mais do que uma vez
+
+
+a:[lema="aço|areia|banana|borgonha|café|caramelo|celeste|cereja|champanhe|chocolate|cinza|cobre|coral|creme|damasco|havana|marfim|marinho|morango|pérola|pêssego|royal|turquesa|uva|violeta" & pessnum="S"] b:[lema=",|e|ou"] c:[sema="cor"] >> a:[sema="cor"]
+
+a:[sema="cor"] b:[word="e|ou|,"] c:[lema="aço|alperce|ameixa|areia|avelã|banana|café|canário|celeste|champanhe|cru|damasco|estopa|lilás|limão|lousa|marinho|marfim|melão|morango|pêssego|salmão|tangerina|terra|tijolo|rosé|ultramarino|verde" & pessnum="S"] >> c:[sema="cor"]
+
+a:[lema="aço|areia|banana|borgonha|caramelo|celeste|cereja|champanhe|chocolate|cinza|cobre|coral|creme|marinho|marfim|pêssego|turquesa|uva|violeta" & pessnum="S"] b:[lema=",|e|ou"] c:<mwe sema="cor"> >> a:[sema="cor"]
+
+c:<mwe sema="cor"> * </mwe> b:[lema=",|e|ou"] a:[lema="aço|areia|banana|borgonha|caramelo|celeste|cereja|champanhe|chocolate|cinza|cobre|coral|creme|limão|marinho|marfim|pêssego|turquesa|uva|violeta" & pessnum="S"] >> a:[sema="cor"]
+
+
+a:[lema="marfim" & pessnum="S"] b:[lema=","] c:[lema="e"] d:[lema="o"] e:[sema="cor"] >> a:[sema="cor"]
+
+a:[sema="cor"] b:[lema=","] c:[lema="ou"] d:[lema="de"] e:[lema="cinza" & pessnum="S"] >> e:[sema="cor"]

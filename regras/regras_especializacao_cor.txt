@@ -1,0 +1,212 @@
+# Regras de especialização relativas à cor
+# Última versão: 2 de Agosto de 2010
+#
+# Estas regras alteram ou especializam casos marcados inicialmente como cor, 
+# quer sejam vagos, quer sejam casos de raça ou de original ou de outros casos
+
+
+# regras em relação a verde (-> não maduro ou original)
+
+a:[lema="legume|tomate|vegetal"] b:[lema="verde"] >> b:[sema="cor_naomaduro"] 
+a:[lema="caldo|chá|feijão|pimento"] b:[lema="verde"] >> b:[sema="cor:original"]
+
+# regras em relação a vinho
+
+a:[lema="vinho"] b:[lema="branco|verde"] >> b:[sema="cor:vinho"]
+a:[lema="vinho"] b:[lema="branco"] c:[lema="verde"] >> c:[sema="cor:vinho"]
+a:[lema="tinto"] b:[word=","] c:[lema="branco"] >> c:[sema="cor:vinho"]
+a:[lema="branco"] b:[word=","] c:[lema="tinto"] >> a:[sema="cor:vinho"]
+a:[word="sobretudo"] b:[word="os"] c:[word="brancos" & sema="cor"] >> c:[sema="cor:vinho"] # no DIACLAV
+a:[word="brancos|tinto|tintos"] b:[word="e|ou"] c:[word="branco|brancos|tintos"] >> a:[sema="cor:vinho"]
+a:[word="vinho"] b:[word="tinto"] c:[word="ou"] d:[word="branco"] >> d:[sema="cor:vinho"]
+a:[word="vinho"] b:[word="branco"] c:[word="italiano"] >> b:[sema="cor:vinho"]
+
+# regras em relação a vermelhão
+
+a:[lema="aparecimento"] b:[lema="de"] c:[lema="um"] d:[word="vermelhão"] >> d:[sema="cor:original" & lema="vermelhão"]
+a:[lema="com|onda|vítima"] b:[word="de|do|um"] c:[word="vermelhão"] >> c:[sema="cor:original" & lema="vermelhão"]
+a:[word="vermelhão"] b:[lema="poder"] c:[lema="atingir|causar"] >> a:[sema="cor:original" & lema="vermelhão"]
+a:[word="pelo"] b:[word="vermelhão"] >> b:[sema="cor:original" & lema="vermelhão"]
+a:[lema="crisopaco|inchação"] b:[lema=","] c:[word="vermelhão"] >> c:[sema="cor:original" & lema="vermelhão"]
+a:[lema="anomalia|doença"] b:[lema="conhecer"] c:[lema="como"] d:[word="vermelhão"] >> d:[sema="cor:original" & lema="vermelhão"]
+a:[lema="campanha"] b:[lema="contra"] c:[lema="o"] d:[lema="vermelhão"] >> d:[sema="cor:original"]
+a:[lema="anafado"] b:[lema="e"] c:[word="vermelhão"] >> c:[sema="cor:humana"]
+a:[word="vermelhão"] b:[lema="de+a"] c:[lema="cólera"] >> a:[sema="cor:humana"]
+a:[word="vermelhão"] b:[lema="natural|oleoso"] c:[word="da"] d:[lema="sua"] e:[lema="cara|face"] >> a:[sema="cor:humana"]
+a:[word="vermelhão"] b:[lema="ordinário"] >> a:[sema="cor:original"]
+
+# regras relativas a cinzentão
+a:[lema="embora"] b:[lema="um"] c:[lema="pouco"] d:[word="cinzentão"] >> d:[sema="cor_cor:original" & lema="cinzento_cinzentão"]
+
+# regras relativas a expressões
+
+a:[lema="dar"] b:[lema="um"] c:[lema="branco"]  >> c:[sema="cor:original"]
+a:[lema="cheque|e-mail|fazer|ficar|folha|imagem|mensagem|página|passar|resposta|voto"] b:[lema="em"] c:[lema="branco"]  >> c:[sema="cor:original"]
+a:[lema="voto"] b:[lema="branco"] >> b:[sema="cor:original"]
+a:[lema="votar"] b:[word="em"] c:[word="branco"] >> c:[sema="cor:original"]
+a:[word="nulos"] b:[word="e"] c:[word="brancos"] >> c:[sema="cor:original"]
+a:[word="nulos"] b:[word="e"] c:[word="em"] d:[word="branco"] >> d:[sema="cor:original"]
+
+# regras em relação a raça
+a:[lema="gente|homem|mulher|padre|pessoa|povo|senhor"] b:[word="de"] c:[word="cor"] >> c:[sema="cor:raça"]
+
+a:[lema="actor|agricultor|aluno|casal|cidade|comunidade|criado|criança|empregado|estudante|família|fazendeiro|filho|gente|gigante|guerreiro|homem|inspetor|irmã|irmão|jovem|mãe|menino|miúdo|monge|morar|movimento|mulher|operário|padre|pai|pastor|patrão|pele|pessoa|polícia|população|professor|raça|rapariga|rapaz|santo|senhor|senhora|sindicalista|sindicato|soldado|solidariedade|velho|vizinho"] b:[lema="branco|negro|preto"] >> b:[sema="cor:raça"]
+
+a:[lema="retinto"] b:[lema="de|seu"] c:[lema="feição|afilhado"] >> a:[sema="cor:raça"]
+
+a:[lema="todo"] <mwe> b:[word="negros"] c:[word="retintos"] </mwe> >> <mwe lema="negro=retinto" sema="cor:raça"> b: c: </mwe> # NILC
+
+
+a:[lema="negro|preto"] b:[word="de|do"] c:[word="veld|verdade"] >> a:[sema="cor:raça"]
+
+a:[lema="preto"] b:[word="e"] c:[lema="preto"] d:[lema="de"] e:[word="verdade"] >> a:[sema="cor:raça"]
+
+a:[lema="morar|namorar"] b:[lema="branco|preto"] >> b:[sema="cor:raça"] #ENPC + outro
+
+a:[lema="branco"] b:[lema=","] c:[lema="mestiço"] >> a:[sema="cor:raça"] # ENPC
+
+a:[word="dos|os"] b:[lema="branco|negro|preto" & pos="N"] [pos="PU|ADJ|V.*"] >> b:[sema="cor:raça"] 
+
+#a:[word="dos|os"] b:[lema="branco|negro|preto"] >> b:[sema="cor:raça"]
+
+a:[lema="um"] b:[lema="branco|negro|preto" & pos="N" & sema="cor"] >> b:[sema="cor:raça"] # nao funciona no CONDIV!
+
+a:[lema="ricaço"] b:[lema="em"] c:[lema="preto"] >> c:[sema="cor:raça"]
+
+a:[lema="economia"] b:[word="da"] c:[word="preta"] >> c:[sema="cor:raça"]
+
+
+a:[lema="vender"] b:[lema="preto"] c:[word="e"] d:[lema="preto"] >> b:[sema="cor:raça"] d:[sema="cor:raça" & lema="preta"]
+
+a:[lema="branco|negro|preto"] b:[word="e|ou"] c:[word="o"] d:[word="sexo"] >> a:[sema="cor:raça"]
+
+a:[lema="mulher"] b:[lema=","] c:[lema="negro"] >> c:[sema="cor:raça"]
+
+a:[lema="encarar|situação|superar"] b:[word="do|o"] c:[lema="branco|negro|preto"] >> c:[sema="cor:raça"]
+
+a:[lema="negro"] b:[lema="vir"] c:[word="de|da"] d:[word="África"] >> a:[sema="cor:raça"]
+
+a:[word="entre"] b:[lema="negro"] c:[lema="e"] d:[lema="branco"] >> b:[sema="cor:raça"] d:[sema="cor:raça"]
+
+
+a:[word="América|americana|burguesia|civilização|direita|diva|elite|esperança|extremista|garota|invasão|jovem|juventude|maioria|menina|minoria|música|nação|namorada|opressão|platéia|sociedade|velhinha"] b:[word="branca"] >> b:[sema="cor:raça"]
+a:[word="cameraman|rapper"] b:[word="branco"] >> b:[sema="cor:raça"]
+a:[lema="amigo|ascendente|ator|bebê|burguês|cidadão|chefe|cineasta|conjunto|Deus|diretor|expedição|explorador|garoto|governo|jogador|mercado|mundo|Parlamento|personagem|poder|presidente|terceiro|universo|vice-presidente"] b:[lema="branco"] >> b:[sema="cor:raça"]
+a:[lema="casa|direito|domínio|lado|maioria|média|predomínio|tratamento"] b:[word="dos"] c:[word="brancos"] >> c:[sema="cor:raça"]
+a:[lema="adolescente|americano|amigo|artista|colono|eleitor|executivo|guitarrista|indo-europeu|inimigo|invasor|liberal|mocinho|presidente|protagonista|radical|sinhôzinho|telespectador"] b:[lema="branco"] >> b:[sema="cor:raça"]
+a:[lema="branco"] b:[lema="adulto|católico|estrangeiro|europeu|pobre"] >> a:[sema="cor:raça"]
+a:[lema="branco"] b:[lema="raptar|sequestrar"] >> a:[sema="cor:raça"]
+a:[word="briga|milhões|partido|sociedade"] b:[word="de"] c:[word="brancos"] >> c:[sema="cor:raça"]
+a:[lema="comerciar|pacificar"] b:[lema="branco"] >> b:[sema="cor:raça"]
+
+
+
+# regras em relação a rubro (-> original)
+a:[lema="atingir"] b:[lema="o"] c:[lema="rubro"] >> c:[sema="cor:original"]
+a:[word="ao"] b:[lema="rubro"] >> b:[sema="cor:original"]
+
+# regras em relação a amarelo (-> original)
+
+a:[lema="página"] b:[lema="amarelo"] >> b:[sema="cor:original"]
+
+
+# regras negativas que jogam com sema
+
+a:[sema="cor"] b:[lema="adamascado"] >> b:[sema="0"]
+
+
+# regras positivas que jogam com sema
+
+#[sema="cor"] [lema="e"] [lema="outro"] d:[lema="canário"] >> d:[sema="cor"]
+
+<mwe sema="cor"> * </mwe> [lema="ou"] [lema="de"] d:[lema="pêssego"] >> d:[sema="cor"]
+
+
+a:[word="purpurina"] b:[sema="cor"] >> a:[pos="N" & sema="0"]
+
+# regras em relação a equipa
+
+a:[word="aos|dos|os|pelos"] b:[word="amarelos|avinhados|azuis|encarnados|rubros|verdes|violetas" & func="P<|SUBJ>|<ACC|<SC|APP"] >> b:[sema="cor:equipa"]
+a:[lema="defesa|futebolista|jogador"] b:[lema="de"] c:[lema="encarnado"] >> c:[sema="cor:equipa"]
+a:[lema="11|adjunto|alma|área|ascendência|assédio|atacante|ataque|avançada|avançado|avançado-centro|baliza|camisa|camisola|centrocampista|clube|combativo|conjunto|contra-ofensiva|defensiva|defesa|diabo|dianteiro|direito|entusiasmo|equipa|equipe|extremo-direito|festejo|formação|frizinho|futebolista|gerente|gole|golo|gremio|grêmio|guarda-redes|internacional|jogador|líder|medio|médio|médio-direito|meia-esquerda|mini-estrela|onze|pressão|team|técnico|time|torcida|treinador|triunfo|turma|vantagem|vitoria|vitória"] b:[lema="alvo|amarelo|avinhado|azul|encarnado|grená|laranja|rosarino|rubro|verde-amarelo|vermelho"] >> b:[sema="cor:equipa"]
+
+
+
+[word="amarelinha"] >> [sema="cor:equipa"]
+
+# regras para cartões amarelos e vermelhos
+
+a:[word="cartões"] b:[word="vermelhos"] c:[word="e"] d:[word="amarelos"] >>  d:[sema="cor:original"] <mwe sema="cor:original" lema="cartão=amarelo" pos="N"> d: </mwe>
+
+a:[word="dois|segundo|terceiro|três"] b:[lema="amarelo"] >> b:[sema="cor:original"] <mwe sema="cor:original" lema="cartão=amarelo" pos="N"> b: </mwe>
+
+
+# as regras seguintes são para passar de cor:equipa para cor normal
+
+a:[lema="avião|bandeira|cabelo|candeeiro|capuchinho|cartaz|chama|chapa|cruz|dispositivo|estandarte|etiqueta|faixa|fascista|flor|galo|guilhotina|imperador|nacional|néctar|penne|porcelana|ramo|República|sinal|tela"] b:[lema="tricolor"] >> b:[sema="cor"]
+
+a:[lema="tricolor"] b:[lema="afegão|inédito|poisar|russo"] >> a:[sema="cor"]
+
+a:[lema="tricolor"] b:[lema=",|e"] c:[lema="amor|branco|vermelho"] >> a:[sema="cor"]
+
+a:[lema="cobrir"] b:[lema="com"] c:[word="a"] d:[lema="tricolor"] >> d:[sema="cor"]
+
+a:[lema="governo"] b:[lema=","] c:[lema="dito"] d:[lema="tricolor"] >> d:[sema="cor"]
+
+a:[lema="calmaria|estampado"] b:[lema="azul-branco"] >> b:[sema="cor"]
+
+a:[lema="azul-branco"] b:[lema="vermelho"] >> a:[sema="cor"]
+
+a:[lema="cápsula|comprimido"] b:[lema="verde-branco"] >> b:[sema="cor"]
+
+a:[lema="verde-branco"] b:[lema="de"] c:[lema="água"] >> a:[sema="cor"]
+
+a:[lema="verde-branco"] b:[lema="laranja"] >> a:[sema="cor"]
+
+a:[lema="onda"] b:[lema="alviverde"] >> b:[sema="cor"]
+
+a:[lema="agitação"] b:[lema="rubro-branco"] >> b:[sema="cor"]
+
+a:[lema="aliança|bandeira|coligação|contrato|faixa|fundo|jantar|onda"] b:[lema="verde-rubro"] >> b:[sema="cor"]
+
+a:[lema="faixa|juventude|pavilhão"] b:[lema="auriverde"] >> b:[sema="cor"]
+
+a:[lema="auriverde"] b:[lema="pendão"] >> a:[sema="cor"]
+
+a:[lema="xadrez"] b:[lema="alvirrubro"] >> b:[sema="cor"]
+
+
+a:[lema="jogar"] b:[word="de"] c:[sema="cor"] >> c:[sema="cor:equipa"]
+
+a:[lema="calção|defesa|empate|equipamento|objectivo"] b:[lema="branco"] >> b:[sema="cor:equipa"]
+
+# regras sobre política
+
+a:[lema="adversário|ala|aliança|alma|alternativa|aparelho|autarca|autarquia|avalanche|balanço|baluarte|bancada|bandeira|base|bastião|bloco|cabeça-de-lista|câmara|campanha|candidato|candidatura|caravana|cartão|cartaz|ciclo|clientela|clientelismo|coligação|comentário|comício|comitiva|comunicado|concelho|conclave|congresso|consulado|corredor|cunha|deputado|derrota|despesismo|diálogo|direcção|dirigente|discurso|distrital|distrito|economista|eleitorado|eleitoral|emblema|enclave|era|estado|estratega|estratégia|estrutura|euforia|ex-autarca|executivo|ex-ministro|ex-parlamentar|família|festa|fileira|freguesia|funcionário|geração|gestão|governação|governo|grupo|hegemonia|hino|hospital|hoste|império|incursão|iniciativa|insinuação|jota|jovem|juventude|lei|líder|liderança|lista|lobby|maioria|máquina|mar|marcelismo|maré|mensagem|militância|militante|ministro|multidão|municipal|município|nação|onda|oposição|país|palácio|parlamentar|partidária|partido|périplo|poder|política|político|povo|pré-campanha|povo|presidência|presidencial|presidente|projecto|propaganda|proposta|público|reduto|rentrée|representante|resultado|roteiro|simpatizante|solidariedade|tempo|trica|tutela|unicidade|universo|vereação|vereador|vereadora|vice-presidente|visão|vitória|votar|voto|voz"] b:[lema="laranja|rosa"] >> b:[sema="cor:política"]
+
+a:[pos="ADV" & lema=".*mente"] b:[lema="laranja"] >> b:[sema="cor:política"] #CETEM + CHAVE + NILC
+
+a:[lema="aliança|coligação"] b:[lema="verde-rubro"] >> b:[sema="cor:política"] #não pode ser incluído na regra geral porque vai marcar mal casos de cor:equipa
+
+a:[word="os"] b:[word="Verdes"] >> b:[sema="cor:política"]
+
+a:[lema="aliança|esquerda|partido"] b:[lema="verde"] >> b:[sema="cor:política"]
+
+a:[lema="verde"] b:[lema="alemão|francês"] >> a:[sema="cor:política"]
+
+a:[lema="verde"] b:[lema="e|ou"] c:[lema="a|o"] d:[lema="azul|comunista|direita"] >> a:[sema="cor:política"]
+
+a:[lema="liberal"] b:[lema="e|,"] c:[lema="o"] d:[lema="verde"] >> d:[sema="cor:política"]
+
+a:[lema="votar|voto"] b:[sema="cor"] >> b:[sema="cor:política"]
+
+
+# regras sobre cor:humana
+
+
+a:[lema="barba|bigode|cabelo|caracol|olho|trança"] b:[sema="cor"] >> b:[sema="cor:humana"]
+
+a:[lema="cabelo"] b:[lema="muito"] c:[sema="cor"] >> c:[sema="cor:humana"]
+
+
+a:[word="agentes|conta|contas|firmas|operador"] b:[word="laranja"] >> b:[sema="cor:original"]

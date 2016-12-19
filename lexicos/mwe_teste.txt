@@ -1,0 +1,6 @@
+# sema=cor pos=N
+sangue azul
+febre amarela
+# sema=cor pos=ADJ
+amarelo alaranjado
+azul marinho

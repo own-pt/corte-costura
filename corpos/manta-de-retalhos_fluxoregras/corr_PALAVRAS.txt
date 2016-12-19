@@ -1,0 +1,62 @@
+# Exemplos de regras que corrigem casos de erros comuns no PALAVRAS
+# São as primeiras a serem aplicadas pelo programa acdc_pinta_corpo_teste.sh
+#
+# Última versão: 21 de Julho de 2010
+#
+
+# Regras relativas a palavras em maiúscula
+
+[word="Marinho" & lema="marinho"] >> [deriv="01" & pos="PROP" & lema="Marinho"]
+a:[word="Pedras"] b:[lema="rubro"] >> a:[deriv="02" & lema="Pedras=Rubras" & pos="PROP" & sema="cor:original"] b:[deriv="02" & lema="Pedras=Rubras" & pos="PROP"] <mwe deriv="02" lema="Pedras=Rubras" pos="PROP" sema="cor:original"> a: b: </mwe>
+
+# Regra para adição de informação de diminutivo e aumentativo
+
+[lema="azulinho"] >> [deriv="03" & lema="azul" & temcagr="DIM"] 
+[lema="vermelhão"] >> [deriv="04" & lema="vermelho" & temcagr="AUM"]
+
+# Regras para corrigir lema
+
+[lema="ultravioleto"] >> [deriv="05" & lema="ultravioleta"]
+
+
+
+# Regras para correcção de erros de ortografia
+
+a:[word="tona"] b:[word="de"] c:[lema="marinho"] >> a:[deriv="06" & word="tons" & lema="tom" & gen="M"] 
+
+
+# Regras relativas a cores específicas
+# tinto
+a:[lema="vinho"] b:[lema="tingir" & word="tinto"] >> b:[deriv="07" & lema="tinto" & pos="ADJ" & temcagr="0"]
+# alvo
+[lema="ser"] a:[lema="alvo" & func="<SC"] [pos="ADV.*"] [lema="de.*" & pos="PRP.*"] >> a:[deriv="08" & pos="N"] 
+
+
+# Regras que modificam o POS de cores
+a:[lema="cetim|tafetá|tom"] b:[word="pérola" & pos="N"] >> b:[deriv="09" & pos="ADJ" & gen="M"]
+
+a:[lema="pigmento|tafetá|veludo"] b:[lema="rubi"] >> b:[deriv="10" & pos="ADJ"]
+
+
+# delimitação de mwe
+
+a:[lema="vegetal|legume"] b:[lema="verde"] >> <mwe> a: b: </mwe>
+
+
+
+
+
+# Exemplos de regras que corrigem casos de erros comuns no PALAVRAS
+# São as primeiras a serem aplicadas pelo programa acdc_pinta_corpo_teste.sh
+#
+# Última versão: 4 de Agosto de 2010
+#
+
+# Estas regras são exclusivas da manta de retalhos por corrigirem erros específicos do corpo.
+
+# Correcção de "tinto" que está anotado como verbo e de "rosé" que está anotado
+[word="branco"] [word=","] a:[word="tinto"] [word=","] b:[word="rosé"] >> a:[lema="tinto" & pos="ADJ" & temcagr="0"] b:[pos="ADJ" & temcagr="0" & func="N<"]
+
+# Correcção de "beige" de verbo para adjectivo
+a:[word="amarelo"] [word=","] b:[word="beige"] [word=","] c:[word="cinza"] >> a:[pos="ADJ" & temcagr="0" & func="PRED>"]
+

@@ -1,0 +1,14 @@
+# Exemplos de regras que corrigem casos de erros comuns no PALAVRAS
+# São as primeiras a serem aplicadas pelo programa acdc_pinta_corpo_teste.sh
+#
+# Última versão: 4 de Agosto de 2010
+#
+
+# Estas regras são exclusivas da manta de retalhos por corrigirem erros específicos do corpo.
+
+# Correcção de "tinto" que está anotado como verbo e de "rosé" que está anotado
+[word="branco"] [word=","] a:[word="tinto"] [word=","] b:[word="rosé"] >> a:[lema="tinto" & pos="ADJ" & temcagr="0"] b:[pos="ADJ" & temcagr="0" & func="N<"]
+
+# Correcção de "beige" de verbo para adjectivo
+a:[word="amarelo"] [word=","] b:[word="beige"] [word=","] c:[word="cinza"] >> a:[pos="ADJ" & temcagr="0" & func="PRED>"]
+

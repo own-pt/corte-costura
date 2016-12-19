@@ -1,0 +1,13 @@
+## -------
+## Ficheiro de registo do programa acdc_corte-e-costura.pl
+## Rev: 59  Data da última alteração: 2010-07-28 01:38:59 -0400 (Qua, 28 Jul 2010) 
+## -------
+## Hora de início: 17 Ago 2010, 13:10:31
+
+Na posição 3973 disparou a regra: 0[lema="tom|cor|côr"] 1[lema="âmbar|café|caramelo|cereja|champanhe|chocolate|cinza|cobre|coral|creme|cru|encarniçado|goiaba|grafite|laranja|malva|marfim|marinho|ouro|pastel|pérola|pêssego|prata|rubi|salmão|terroso|turquesa"] >> 1[deriv="31"] 1[sema="cor"].
+Na posição 4564 disparou a regra: 0[lema="tom"] 1[word="de"] 2[lema="aço|âmbar|areia|carne|malva|marfim|marinho|morango|ouro|pastel|pérola|pêssego|violeta"] >> 2[deriv="32"] 2[sema="cor"].
+Na posição 4644 disparou a regra: 0[lema="tom"] 1[word="de"] 2[lema="aço|âmbar|areia|carne|malva|marfim|marinho|morango|ouro|pastel|pérola|pêssego|violeta"] >> 2[deriv="32"] 2[sema="cor"].
+Na posição 6683 disparou a regra: 0[lema="tom|cor|côr"] 1[lema="âmbar|café|caramelo|cereja|champanhe|chocolate|cinza|cobre|coral|creme|cru|encarniçado|goiaba|grafite|laranja|malva|marfim|marinho|ouro|pastel|pérola|pêssego|prata|rubi|salmão|terroso|turquesa"] >> 1[deriv="31"] 1[sema="cor"].
+Na posição 7551 disparou a regra: 0[lema="damasco"] 1[word="e"] 2[lema="melão"] >> 0[deriv="33"] 0[sema="cor"] 2[deriv="33"] 2[sema="cor"].
+
+## Hora de fim: 17 Ago 2010, 13:10:33

@@ -1,0 +1,30 @@
+## -------
+## Ficheiro de registo do programa acdc_corte-e-costura.pl
+## Rev: 59  Data da última alteração: 2010-07-28 01:38:59 -0400 (Qua, 28 Jul 2010) 
+## -------
+## Hora de início: 17 Ago 2010, 13:07:23
+
+Na posição 2180 disparou a regra: 0[lema="azul"] 1[lema="marinho"] >> 0<mwe lema="azul=marinho" pos="ADJ" sema="cor"> 1</mwe> 0[sema="cor"].
+Na posição 2584 disparou a regra: 0[lema="azul"] 1[lema="marinho"] >> 0<mwe lema="azul=marinho" pos="ADJ" sema="cor"> 1</mwe> 0[sema="cor"].
+Na posição 2851 disparou a regra: 0[lema="fato"] 1[lema="de"] 2[lema="banho"] >> 0<mwe lema="fato=de=banho" pos="N" sema="roupa"> 2</mwe> 0[sema="roupa"].
+Na posição 3997 disparou a regra: 0[lema="negro"] 1[lema="retinto"] >> 0<mwe lema="negro=retinto" pos="N" sema="cor"> 1</mwe> 0[sema="cor"].
+Na posição 5861 disparou a regra: 0[lema="chapéu"] 1[lema="alto"] >> 0<mwe lema="chapéu=alto" pos="N" sema="roupa"> 1</mwe> 0[sema="roupa"].
+Na posição 5954 disparou a regra: 0[lema="trajo"] 1[lema="de"] 2[lema="cerimónia"] >> 0<mwe lema="trajo=de=cerimónia" pos="N" sema="roupa"> 2</mwe> 0[sema="roupa"].
+Na posição 6150 disparou a regra: 0[lema="azul"] 1[lema="cinza"] >> 0<mwe lema="azul=cinza" pos="ADJ" sema="cor"> 1</mwe> 0[sema="cor"].
+Na posição 6229 disparou a regra: 0[lema="toucado"] 1[lema="de"] 2[lema="cerimónia"] >> 0<mwe lema="toucado=de=cerimónia" pos="N" sema="roupa"> 2</mwe> 0[sema="roupa"].
+Na posição 6310 disparou a regra: 0[lema="vestido"] 1[lema="de"] 2[lema="cocktail"] >> 0<mwe lema="vestido=de=cocktail" pos="N" sema="roupa"> 2</mwe> 0[sema="roupa"].
+Na posição 6446 disparou a regra: 0[lema="casaco"] 1[lema="7/8"] >> 0<mwe lema="casaco=7/8" pos="N" sema="roupa"> 1</mwe> 0[sema="roupa"].
+Na posição 6613 disparou a regra: 0[lema="cor"] 1[lema="de"] 2[lema="laranja"] >> 0<mwe lema="cor=de=laranja" pos="ADJ" sema="cor"> 2</mwe> 0[sema="cor"].
+Na posição 7204 disparou a regra: 0[lema="cor"] 1[lema="de"] 2[lema="laranja"] >> 0<mwe lema="cor=de=laranja" pos="ADJ" sema="cor"> 2</mwe> 0[sema="cor"].
+Na posição 7220 disparou a regra: 0[lema="fato"] 1[lema="de"] 2[lema="banho"] >> 0<mwe lema="fato=de=banho" pos="N" sema="roupa"> 2</mwe> 0[sema="roupa"].
+Na posição 7286 disparou a regra: 0[lema="fato"] 1[lema="de"] 2[lema="banho"] >> 0<mwe lema="fato=de=banho" pos="N" sema="roupa"> 2</mwe> 0[sema="roupa"].
+Na posição 7399 disparou a regra: 0[lema="fato"] 1[lema="de"] 2[lema="banho"] >> 0<mwe lema="fato=de=banho" pos="N" sema="roupa"> 2</mwe> 0[sema="roupa"].
+Na posição 7444 disparou a regra: 0[lema="fato"] 1[lema="de"] 2[lema="banho"] >> 0<mwe lema="fato=de=banho" pos="N" sema="roupa"> 2</mwe> 0[sema="roupa"].
+Na posição 7496 disparou a regra: 0[lema="cor"] 1[lema="de"] 2[lema="laranja"] >> 0<mwe lema="cor=de=laranja" pos="ADJ" sema="cor"> 2</mwe> 0[sema="cor"].
+Na posição 7521 disparou a regra: 0[lema="cor"] 1[lema="de"] 2[lema="mel"] >> 0<mwe lema="cor=de=mel" pos="ADJ" sema="cor"> 2</mwe> 0[sema="cor"].
+Na posição 7541 disparou a regra: 0[lema="fato"] 1[lema="de"] 2[lema="banho"] >> 0<mwe lema="fato=de=banho" pos="N" sema="roupa"> 2</mwe> 0[sema="roupa"].
+Na posição 7570 disparou a regra: 0[lema="fato"] 1[lema="de"] 2[lema="banho"] >> 0<mwe lema="fato=de=banho" pos="N" sema="roupa"> 2</mwe> 0[sema="roupa"].
+Na posição 14332 disparou a regra: 0[lema="cor"] 1[lema="de"] 2[lema="ouro"] >> 0<mwe lema="cor=de=ouro" pos="ADJ" sema="cor"> 2</mwe> 0[sema="cor"].
+Na posição 14637 disparou a regra: 0[lema="cor"] 1[lema="de"] 2[lema="limão"] >> 0<mwe lema="cor=de=limão" pos="ADJ" sema="cor"> 2</mwe> 0[sema="cor"].
+
+## Hora de fim: 17 Ago 2010, 13:10:30

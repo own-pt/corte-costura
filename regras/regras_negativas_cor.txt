@@ -1,0 +1,79 @@
+# Regras negativas sobre a cor
+# Última versão: 20 de Março de 2010
+#
+# Regras para retirar os casos em que o grosso das ocorrências são cor
+# mas há alguns casos em que não são
+#
+
+
+#aço
+
+a:[lema="aço" & sema="cor"] b:[lema="inoxidável"] >> a:[sema="0"]
+
+# louro
+
+[lema="colher|dar"] [lema="o"] a:[lema="louro" & sema="cor"] >> a:[sema="0"]
+[lema="coroa|coroar|folha"] [lema="de"] a:[lema="louro"] >> a:[sema="0"]
+a:[lema="louro"] b:[word="de|da"] c:[lema="vitória"] >> a:[sema="0"]
+[lema="ganhar|viçoso"] a:[lema="louro"] >> a:[sema="0"]
+
+# creme
+
+a:[lema="leite"] b:[lema="creme"] >> b:[sema="0"]
+a:[word="Creme"] b:[word="nº.|nº|n|n.|n,|Rosy|Thaber|Tendresse|Cate|Thabei|Tha-ber|Nívea|Tokalon|NIVEA"] >> a:[sema="0"]
+a:[lema="roupa"] b:[lema="e"] c:[lema="creme"] >> c:[sema="0"]
+
+# cru
+
+a:[lema="alimento|batata|carne|castanha|cebola|cenoura|cereal|coiro|comer|comida|consumir|couro|couve|dieta|dor|estado|fatia|fígado|fruta|hortaliça|ingerir|legume|leite|luz|maçã|nabo|ovo|pedaço|peixe|salada|trigo|vegetal|verdura"] b:[lema="cru"] >> b:[sema="0"]
+
+a:[lema="clara|dura|longa|nua"] b:[word="e"] c:[lema="cru"] >> c:[sema="0"]
+
+# laranja
+a:[lema="laranja"] b:[lema="gelar|descascar"] >> a:[sema="0"]
+
+# castanho
+a:[lema="madeira|móvel"] b:[lema="de"] c:[lema="castanho"] >> c:[sema="material"]
+
+# verduras
+a:[word="verduras"] b:[word=",|e"] c:[lema="ave|batata|legume|fruta|hortaliça|macarrão|pescado"] >> a:[sema="0"]
+
+a:[lema="aipo|batata|carne|cereal|fruta|hortaliça|legume|leite|peixe|salada"] b:[word=",|e"] c:[word="verduras"] >> c:[sema="0"]
+
+a:[word="verduras"] b:[lema="folhosa|importar"] >> a:[sema="0"]
+
+a:[lema="comer|comprar|cortar|ingerir|fornecer"] b:[word="verduras"] >> b:[sema="0"]
+
+a:[word="abastecimento|caixa|caldo|ingestão|oferta|preço|qualidade|safra"] b:[word="de"] c:[word="verduras"] >> c:[sema="0"]
+
+a:[word="verduras"] b:[word="e"] c:[lema="o"] d:[lema="peixe"] >> a:[sema="0"]
+
+a:[lema="alimento"] b:[word="como"] c:[lema="a"] d:[lema="verdura"] >> d:[sema="0"]
+
+#outras
+a:[word="areia"] b:[word="branca|clara"] >> a:[sema="0"]
+a:[word="área|comércio|estuário|federação|interbancário|produto|quadro|região|vizinho"] b:[lema="platino"] >> a:[sema="0"]
+a:[word="batons|meias|pomadas"] b:[word="e"] c:[word="cremes"] >> c:[sema="0"]
+a:[word="cremes"] b:[word="e"] c:[word="drogas|loções"] >> a:[sema="0"]
+a:[word="cremes"] b:[word=","] c:[word="hidratantes|óleos"] >> a:[sema="0"]
+[word="créme"] >> [sema="0"]
+a:[lema="creme"] b:[word="brulée|dentais|desodorante|irlandês|mágicos|Nivea|rinse"] >> a:[sema="0"]
+a:[word="sabores"] b:[word="creme"] >> b:[sema="0"]
+a:[word="cremes"] b:[word="para"] c:[word="pele"] >> a:[sema="0"]
+a:[word="creme"] b:[word="de"] c:[word="arroz"] >> a:[sema="0"]
+a:[word="creme"] b:[word="ou"] c:[word="doce"] >> a:[sema="0"]
+a:[word="laranja"] b:[word=","] c:[word="abacaxi|banana|café|caju|cana-de-açúcar|cereja|feijão|frutas|fumo|maça|mandioca|mexerica|milho|soja"] >> a:[sema="0"] c:[sema="0"]
+a:[word="abacaxi|baunilha|café|morango|tomate"] b:[word="e"] c:[word="laranja"] >> a:[sema="0"] c:[sema="0"]
+a:[word="suco"] b:[word="de"] c:[word="laranja"] >> c:[sema="0"]
+a:[word="frutas"] b:[word="como"] c:[word="laranja"] >> c:[sema="0"]
+a:[word="sabor"] b:[word="laranja"] >> b:[sema="0"]
+a:[word="pé"] b:[word="de"] c:[word="laranja"] d:[word="lima"] >> c:[sema="0"]
+[word="castanha-do-pará|castanhas-panetone"] >> [sema="0"]
+a:[word="castanha"] b:[word="de"] c:[word="caju|cajú"] >> a:[sema="0"]
+a:[word="marron|Marrom"] b:[word="glacé|glacê"] >> a:[sema="0"]
+a:[word="vie"] b:[word="en"] c:[word="rose"] >> c:[sema="0"]
+a:[word="coral"] b:[word="gospell"] >> a:[sema="0"]
+a:[word="apresentação|canto|coletivo|concerto|grupo|música|tradição"] b:[word="coral"] >> b:[sema="0"]
+a:[word="coral"] b:[word="e"] c:[word="balé|orquestra"] >> a:[sema="0"]
+a:[word="cascavel|órgão|orquestra"] b:[word="e"] c:[word="coral"] >> c:[sema="0"]
+a:[word="tudo"] b:[word="são"] c:[word="rosas"] >> c:[sema="0"]

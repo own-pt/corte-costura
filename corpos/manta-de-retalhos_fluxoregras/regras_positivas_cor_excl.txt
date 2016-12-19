@@ -1,0 +1,10 @@
+# Regras positivas
+# Última versão: 3 de Agosto de 2010
+#
+# Regras que pressupõem que o grosso das outras palavras já estão
+# marcadas como cor, e é só para adicionar os casos de palavras que
+# raramente têm essa acepção, a não ser em contextos específicos
+
+
+# Esta regra é específica da manta de retalhos, pois noutros pode ser também a coordenação entre dois frutos
+a:[lema="damasco"] [word="e"] b:[lema="melão"] >> a:[deriv="33" & sema="cor"] b:[deriv="33" & sema="cor"]

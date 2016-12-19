@@ -1,0 +1,78 @@
+
+# Última versão: 14 de Julho de 2010
+#
+# Estas regras alteram ou especializam casos marcados inicialmente como cor, 
+# quer sejam vagos, quer sejam casos de raça ou de original ou de outros casos
+
+
+# regras em relação a verde (-> não maduro ou original)
+
+a:[lema="legume|tomate|vegetal"] b:[lema="verde"] >> b:[deriv="11" & sema="cor_naomaduro"] 
+a:[lema="caldo|chá|feijão|pimento"] b:[lema="verde"] >> b:[deriv="12" & sema="cor:original"]
+
+# regras em relação a cores referentes a vinho
+
+a:[lema="vinho"] b:[lema="branco|verde"] >> b:[deriv="13" & sema="cor:vinho"]
+
+# regras em relação a vermelhão
+# notar que um das regras de correcção do PALAVRAS altera o lema de todas as ocorrências de "vermelhão" para "vermelho"; esta regra repõe o lema em "vermelhão" em alguns contextos
+a:[lema="anomalia|doença"] b:[lema="conhecer"] c:[lema="como"] d:[word="vermelhão"] >> d:[deriv="14" & sema="cor:original" & lema="vermelhão"]
+
+# regras relativas a expressões
+
+a:[lema="voto"] b:[lema="branco"] >> b:[deriv="15" & sema="cor:original"]
+a:[word="ao"] b:[lema="rubro"] >> b:[deriv="16" & sema="cor:original"]
+
+
+# regras em relação a raça
+a:[lema="gente|homem|mulher|padre|pessoa|povo|senhor"] b:[word="de"] c:[word="cor"] >> c:[deriv="17" & sema="cor:raça"]
+
+a:[lema="actor|agricultor|aluno|casal|cidade|comunidade|criado|criança|empregado|estudante|família|fazendeiro|filho|gente|gigante|guerreiro|homem|inspetor|irmã|irmão|jovem|mãe|menino|miúdo|monge|morar|movimento|mulher|operário|padre|pai|pastor|patrão|pele|pessoa|polícia|população|professor|raça|rapariga|rapaz|santo|senhor|senhora|sindicalista|sindicato|soldado|solidariedade|velho|vizinho"] b:[lema="branco|negro|preto"] >> b:[deriv="18" & sema="cor:raça"]
+
+a:[word="dos|os"] b:[lema="branco|negro|preto" & pos="N"] [pos="PU|ADJ|V.*"] >> b:[deriv="19" & sema="cor:raça"] 
+
+
+# regras negativas que jogam com sema
+
+a:[word="purpurina"] b:[sema="cor"] >> a:[deriv="20" & pos="N" & sema="0"]
+
+
+# regras positivas que jogam com sema
+
+<mwe sema="cor"> * </mwe> [lema="ou"] [lema="de"] d:[lema="pêssego"] >> d:[deriv="21" & sema="cor"]
+
+
+# regras em relação a equipa
+
+a:[word="aos|dos|os|pelos"] b:[word="amarelos|avinhados|azuis|encarnados|rubros|verdes|violetas" & func="P<|SUBJ>|<ACC|<SC|APP"] >> b:[deriv="22" & sema="cor:equipa"]
+
+
+# as regras seguintes são para passar de cor:equipa para cor normal
+
+a:[lema="cápsula|comprimido"] b:[lema="verde-branco"] >> b:[deriv="23" & sema="cor"]
+
+
+# regras sobre política
+
+a:[lema="adversário|ala|aliança|alma|alternativa|aparelho|autarca|autarquia|avalanche|balanço|baluarte|bancada|bandeira|base|bastião|bloco|cabeça-de-lista|câmara|campanha|candidato|candidatura|caravana|cartão|cartaz|ciclo|clientela|clientelismo|coligação|comentário|comício|comitiva|comunicado|concelho|conclave|congresso|consulado|corredor|cunha|deputado|derrota|despesismo|diálogo|direcção|dirigente|discurso|distrital|distrito|economista|eleitorado|eleitoral|emblema|enclave|era|estado|estratega|estratégia|estrutura|euforia|ex-autarca|executivo|ex-ministro|ex-parlamentar|família|festa|fileira|freguesia|funcionário|geração|gestão|governação|governo|grupo|hegemonia|hino|hospital|hoste|império|incursão|iniciativa|insinuação|jota|jovem|juventude|lei|líder|liderança|lista|lobby|maioria|máquina|mar|marcelismo|maré|mensagem|militância|militante|ministro|multidão|municipal|município|nação|onda|oposição|país|palácio|parlamentar|partidária|partido|périplo|poder|política|político|povo|pré-campanha|povo|presidência|presidencial|presidente|projecto|propaganda|proposta|público|reduto|rentrée|representante|resultado|roteiro|simpatizante|solidariedade|tempo|trica|tutela|unicidade|universo|vereação|vereador|vereadora|vice-presidente|visão|vitória|votar|voto|voz"] b:[lema="laranja|rosa"] >> b:[deriv="24" & sema="cor:política"]
+
+# reparar que esta regra já não encontra "voto branco" porque numa das regras anteriores "branco" nesse caso foi marcado como sema=cor:original; e também não anota "laranja" em "votassem laranja" porque esta palavra é anotada pela regra anterior
+a:[lema="votar|voto"] b:[sema="cor"] >> b:[deriv="25" & sema="cor:política"] 
+
+
+# regras sobre cor:humana
+
+a:[lema="barba|bigode|cabelo|caracol|olho|trança"] b:[sema="cor"] >> b:[deriv="26" & sema="cor:humana"]
+
+
+
+# Regras positivas
+# Última versão: 3 de Agosto de 2010
+#
+# Estas regras alteram ou especializam casos marcados inicialmente como cor, 
+# quer sejam vagos, quer sejam casos de raça ou de original ou de outros casos
+
+
+# Esta regra é específica da manta de retalhos, porque não existe contexto suficiente na frase que permita criar uma regra genérica. É necessário recorrer às frases anteriores para deduzir que "acinzentou" está a modificar "cabelo": "Que o ramo gera cabelos brancos não se discute. É só olhar para o Fernando Henrique. Em poucos meses acinzentou todo.". Como é a única ocorrência do verbo "acinzentar" na manta de retalhos, não é necessário acrescentar contexto à regra.
+
+[lema="acizentar"]  >> [deriv="37ex" & sema="cor:humana"]

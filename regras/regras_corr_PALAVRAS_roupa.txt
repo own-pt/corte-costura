@@ -1,0 +1,4 @@
+# Regras que corrigem casos de erros comuns no PALAVRAS que têm a ver com roupa
+# Última versão: 26 de Julho de 2010
+
+[lema="bolsinho"] >> [lema="bolso" & temcagr="DIM"]

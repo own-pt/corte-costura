@@ -1,0 +1,22 @@
+# Regras negativas
+# Última versão: 20 de Março de 2010
+#
+# Regras para retirar os casos em que o grosso das ocorrências são cor
+# mas há alguns casos em que não são
+#
+
+
+# louro
+
+[lema="colher|dar|recusar|merecer|conquistar|conseguir"] [lema="o"] a:[lema="louro"] >> a:[deriv="27" & sema="0"] 
+
+# cru
+
+a:[lema="alimento|batata|carne|castanha|cebola|cenoura|cereal|coiro|comer|comida|consumir|couro|couve|dieta|dor|estado|fatia|fígado|fruta|hortaliça|ingerir|legume|leite|luz|maçã|nabo|ovo|pedaço|peixe|salada|trigo|vegetal|verdura"] b:[lema="cru"] >> b:[deriv="28" & sema="0"]
+
+# laranja
+a:[lema="laranja"] b:[lema="gelar|descascar"] >> a:[deriv="29" & sema="0"]
+
+# castanho
+a:[lema="madeira|móvel"] b:[lema="de"] c:[lema="castanho"] >> c:[deriv="30" & sema="material"]
+

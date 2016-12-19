@@ -1,0 +1,91 @@
+# Versão: 16 de Agosto de 2010, Linguateca
+#
+# Estas regras são apenas usadas para efeitos de ilustração e de teste. 
+# Algumas regras não têm motivação linguística.
+# O corpo corpos/manta-de-retalhos_formatoregras, também de teste, permite activar todas 
+# estas regras quando se corre o programa acdc_corte-e-costura_teste.sh na directoria 
+# do corpo.
+# ################################################################################
+
+# --------------------------------------------
+# Regras implícitas de inserção de compostos 
+# --------------------------------------------
+# sema=cor pos=ADJ
+azul marinho
+cor de laranja # uma cor muito bonita
+
+
+# ----------------------------------------------------------
+# Regras de modificação de atributos em termos posicionais
+# ----------------------------------------------------------
+
+# Regras sem contexto podem não ter referências
+[lema="azul"] >> [sema="cor"]           # sem contexto e sem referências
+z:[lema="laranja"] >> z:[sema="cor"]    # sem contexto e com referências
+z:[lema="laranja" & pos="ADJ"] >> z:[sema="cor"]    # Usar mais do que um atributo como restrição no antecedente (1)
+z:[lema="laranja"] >> z:[pos="ADJ" & sema="cor"]    # Modificar mais do que um atributo do mesmo termo no consequente (2)
+[pos="N" & lema="laranja"] >> [pos="ADJ" & sema="cor"]    # Combinação de (1) e (2), mas sem referências
+
+# Regras com contexto precisam sempre de referências
+[lema="cor"] [lema="de"] z:[lema="laranja"] [lema="e"] b:[lema="amarelo"] >> z:[sema="cor"] b:[sema="cor"]
+
+[lema="folha"] [lema="de"] a:[lema="louro"] >> a:[sema="0"]               # se grupo não ficar a "0", avisa
+[lema="ramo|folha"] [lema="de"] a:[lema="louro"] >> a:[sema="0" & grupo="0"]     # coloca o grupo também a "0"
+
+# ----------------------------------------------------------
+# Regras de modificação de atributos em termos estruturais
+# ----------------------------------------------------------
+
+# Regras sem contexto
+<mwe lema="cor=de=laranja"> >> <sema="cor">        # sem contexto e sem referências
+z:<mwe lema="cor=de=.*"> >> z:<sema="cor">   # sem contexto e com referências
+z:<mwe lema="cor=de=laranja" pos="N"> >> z:<sema="cor">    # (1) Usar mais do que um atributo como restrição no antecedente
+z:<mwe lema="cor=de=laranja"> >> z:<pos="ADJ" sema="cor">    # (2) Modificar mais do que um atributo do mesmo termo no consequente
+<mwe pos="N" lema="cor=de=laranja"> >> <pos="ADJ" sema="cor">       # Combinação de (1) e (2), mas sem referências
+
+a:<mwe lema="cor=de=laranja"> * </mwe> >> a:<sema="cor">   # (3) Uso de * para especificar mwe de comprimento variável
+                                                           # (embora o lema de mwe condicione a que tenha comprimento 3)
+
+a:<mwe pos="N"> * </mwe> >> a:<sema="cor">   # Uso de * para especificar mwe de comprimento variável
+
+<mwe lema="folha=de=louro"> >> <sema="0">               # se grupo estiver presente mas não ficar a "0", avisa
+<mwe lema="folha=de=louro"> >> <sema="0" grupo="0">   # coloca o grupo também a "0"
+
+# ----------------------------------------------------------
+# Regras que usam ambos os tipos de termo
+# ----------------------------------------------------------
+
+a:<mwe lema="cor=de=laranja"> [lema="cor"] [lema="de"] [lema="laranja"] </mwe> >> a:<sema="cor">   # Geralmente equivalente a (3) 
+
+</mwe> a:[pos="ADJ"] >> a:[sema="cor"]   # Para modificar o termo "a" é necessário haver um composto antes
+
+a:[pos="ADJ"] <mwe> >> a:[sema="cor"]   # Para modificar o termo "a" é necessário haver um composto depois e não interessa os seus atributos
+
+# Regra simples de inserção de mwe e que modifica um dos constituintes de mwe
+[lema="máscara"] a:[lema="cor"] [lema="de"] b:[lema="laranja"]  >> <mwe lema="cor=de=laranja" sema="cor"> a: b: </mwe> a:[sema="cor"]
+
+# Regras equivalentes que inserem um composto e modificam um outro já existente no corpo
+# Alternativa 1:
+a:[word="peito"] b:[word="de"] c:[word="rola"] [word="e"] <mwe> d:[word="aurora"] e:[word="boreal"] </mwe> >> a:[sema="cor"] <mwe lema="peito=de=rola" pos="N" sema="cor"> a: b: c: </mwe> d:[sema="cor"] <mwe lema="aurora=boreal" sema="cor"> d: e: </mwe>
+
+# Alternativa 2:
+a:[word="peito"] [word="de"] c:[word="rola"] [word="e"] <mwe> d:[word="aurora"] e:[word="boreal"] </mwe> >> a:[sema="cor"] <mwe lema="peito=de=rola" pos="N" sema="cor"> a: c: </mwe> d:[sema="cor"] <mwe lema="aurora=boreal" sema="cor"> d: e: </mwe>
+
+# Alternativa 3
+a:[word="peito"] [word="de"] c:[word="rola"] [word="e"] z:<mwe> d:[word="aurora"] [word="boreal"] </mwe> >> a:[sema="cor"] <mwe lema="peito=de=rola" pos="N" sema="cor"> a: c: </mwe> d:[sema="cor"] z:<lema="aurora=boreal" sema="cor">
+
+# Regras com mwe à esquerda de comprimento variável que modifica termo posicional à direita de mwe
+<mwe> * </mwe> a:[word="negro" & pos="ADJ"]  >>  a:[pos="N"]
+<mwe pos="N"> * </mwe> a:[word="negro" & pos="N"]  >>  a:[pos="ADJ"] # Condiciona a mwe a ser um nome; 
+a:<mwe sema="cor"> * </mwe> [lema="ou"] [lema="de"] d:[lema="pêssego"] >> d:[sema="cor"]
+
+# Regra com mwe de comprimento variável entre nome e verbo que modifica o termo posicional anterior a mwe e a própria mwe
+a:[pos="N"] b:<mwe> * </mwe> [lema="e"] >>  a:[sema="cor"] b:<sema="cor">
+
+# Regra que insere mais do que um composto
+a:[lema="cor"] [lema="de"] b:[lema="limão"] [lema="ou"] c:[lema="de"] d:[lema="pêssego"] >> <mwe> a: b: </mwe> <mwe> c: d: </mwe>
+
+# Regra que usa mais do que um composto com comprimento variável
+a:<mwe> * </mwe> [lema="ou"] <mwe> * </mwe> >> a:<sema="cor">
+# <mwe> * </mwe> [lema="ou"] a:<mwe> * </mwe> >> a:<sema="cor"> ## não está a funcionar
+ 

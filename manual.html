@@ -1,0 +1,61 @@
+<html>
+<title>Manual do corte-e-costura</title>
+<body bgcolor="#ffffff">
+<h1>Corte-e-costura: manual de utilização</h1>
+<a href="http://www.linguateca.pt" targe="_top">Linguateca</a>
+
+<hr> 
+<p>O pacote <tt>corte-e-costura</tt>, além de conter os recursos necessários (programas e regras) para anotar genericamente qualquer corpo anotado previamente pelo PALAVRAS e que esteja no formato do AC/DC, inclui para testes ilustrativos dois programas e duas mantas de retalhos de textos, bem como as correspondentes regras de teste. 
+
+<p>Os programas devem ser corridos da directoria onde se encontra o corpo a anotar, o qual deverá ter o nome <tt>corpus</tt>. As regras devem ser organizadas por campo semântico, acrescentando ao nome do ficheiro um sufixo que corresponde ao campo semântico que as regras anotam. Por exemplo, todos os ficheiros relativos à anotação do campo semântico da cor devem ter o sufixo <tt>_cor</tt>.  
+
+<p> Em seguida, exemplifica-se cada um dos casos de anotação.
+
+<ul>
+<li><b>Teste com a <tt>manta-de-retalhos_formatoregras</tt>:</b>
+  <ol>
+     <li> Mudar para a directoria <tt>manta-de-retalhos_formatoregras</tt><br>
+          <tt> > cd &lt;DIR_CORTECOSTURA>/corpos/manta-de-retalhos_formatoregras </tt>
+     <li> Correr o programa <tt>acdc_corte-e-costura_teste.sh</tt> de acordo com o teste que se pretende:<br>
+        <ul>   
+         <li> <i>Opção 1</i>: Correr o programa de teste sem recursividade<br>
+              <tt> > ./acdc_corte-e-costura_teste.sh</tt>
+         <li> <i>Opção 2</i>: Correr o programa de teste com recursividade<br>
+              <tt> > ./acdc_corte-e-costura_teste.sh -r </tt>
+        </ul>
+   </ol>
+   <br>NOTA: Este teste usa as regras de teste <tt>regras_corte-e-costura_cor_teste.txt</tt>.<br><br>
+
+  <li><b>Teste com a <tt>manta-de-retalhos_fluxoregras</tt>:</b>
+    <ol>
+     <li> Mudar para a directoria <tt>manta-de-retalhos_fluxoregras</tt><br>
+          <tt> > cd &lt;DIR_CORTECOSTURA>/corpos/manta-de-retalhos_fluxoregras</tt>
+     <li> Correr o programa <tt>acdc_pinta_corpo_teste.sh</tt> de acordo com o teste que se pretende<br>
+        <ul>
+          <li> <i>Opção 1</i>: Correr o programa de teste com o intuito de produzir apenas o corpo final anotado<br>
+                 <tt> > ./acdc_corte-e-costura_teste.sh "1"</tt>
+         <li> <i>Opção 2</i>: Correr o programa de teste com o intuito de produzir corpos temporários após a aplicação de cada passo da invocação<br>
+                 <tt> > ./acdc_corte-e-costura_teste.sh "1" -p </tt>
+        </ul>
+     </ol>
+     
+   <br>NOTA: Este teste usa as regras genéricas de teste <tt>regras_corr_PALAVRAS_cor_teste.txt</tt>, <tt>regras_positivas_cor_teste.txt</tt>, <tt>regras_negativas_cor_teste.txt</tt>, <tt>regras_especializacao_cor_teste.txt</tt> e <tt>regras_recursivas_cor_teste.txt</tt>, e as regras exclusivas desta manta de retalhos que se encontram na directoria deste corpo.<br><br>
+
+  <li><b>Anotar genericamente um corpo que esteja no formato do AC/DC e cujo nome completo é, por exemplo, <tt>/home/user/meucorpo.txt</tt></b>
+    <ol>
+     <li> Criar uma directoria dentro da directoria <tt>corpos</tt> com o nome do corpo: <br>
+          <tt> > mkdir meucorpo</tt>
+     <li> Copiar o corpo para essa directoria, mudando-lhe o nome para <tt>corpus</tt><br>
+          <tt> > cp /home/user/meucorpo.txt &lt;DIR_CORTECOSTURA>/corpos/meucorpo/corpus </tt>
+     <li> Mudar para a directoria nova onde está o corpo<br>
+          <tt> > cd &lt;DIR_CORTECOSTURA>/corpos/meucorpo/corpus </tt>
+     <li> Correr o <tt>programa acdc_pinta_corpo.sh</tt> indicando a posição do lema no corpo:<br>
+          <tt> > ./acdc_corte-e-costura.sh &lt;posição do lema> </tt>
+    </ol>
+     <br>NOTA: Neste caso são usadas as regras genéricas <tt>regras_corr_PALAVRAS_{cor|roupa}.txt</tt>, <tt>regras_positivas_{cor|roupa}.txt</tt>, <tt>regras_negativas__{cor|roupa}.txt</tt>, <tt>regras_especializacao_{cor|roupa}.txt</tt> e <tt>regras_recursivas_{cor|roupa}.txt</tt>, e as regras exclusivas que o utilizador possa ter criado na directoria do corpo.<br><br>
+</ul>
+<hr>
+<p>O artigo <a href="http://www.linguateca.pt/documentos/index.html#1252578260">Mota e Santos (2009)</a> descreve em detalhe o formato das regras e as diversas opções que podem ser usadas quando se corre o programa <tt>acdc_corte-e-costura.pl</tt>.
+<hr>
+Última actualização: 25 de Agosto de 2010.<BR>
+Data de criação da presente página: 27 de Julho de 2010.

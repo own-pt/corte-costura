@@ -1,0 +1,106 @@
+# Regras que corrigem casos de erros comuns no PALAVRAS que têm a ver com cor
+# Última versão: 2 de Agosto de 2010
+#
+# Em alguns casos são 100% certas, outras exigem /exigirão ainda algum cuidado
+# que pode ser em termos de contra-regras...
+
+# regras relativas a palavras em maiúscula
+
+[word="Albino" & lema="albino"] >> [pos="PROP" & lema="Albino"]
+[word="Auriverde" & lema="auriverde"] >> [pos="PROP" & lema="Auriverde"]
+[word="Branca" & lema="branca"] >> [pos="PROP" & lema="Branca"] 
+[word="Branco" & lema="branco"] >> [pos="PROP" & lema="Branco"]  
+[word="Esmeraldina"] >> [pos="PROP" & lema="Esmeraldina"]
+[word="Esmeraldino" & lema="esmeraldino"] >> [pos="PROP" & lema="Esmeraldino"]
+[word="Garrido" & lema="garrido"] >> [pos="PROP" & lema="Garrido"]
+[word="Havana" & lema="havana"] >> [pos="PROP" & lema="Havana"]
+[word="Louro" & lema="louro"]  >> [pos="PROP" & lema="Louro"]
+[word="Marinho" & lema="marinho"] >> [pos="PROP" & lema="Marinho"]
+[word="Moreno" & lema="moreno"]  >> [pos="PROP" & lema="Moreno"]
+[word="Terroso" & lema="terroso"] >> [pos="PROP" & lema="Terroso"]
+[word="Rosa" & lema="rosa"] >> [pos="PROP" & lema="Rosa"]
+[word="Rosado" & lema="rosado"]  >> [pos="PROP" & lema="Rosado"]
+[word="Rosas" & lema="rosa"] >> [pos="PROP" & lema="Rosas"]
+
+a:[word="Pedras"] b:[lema="rubro"] >> a:[lema="Pedras=Rubras" & pos="PROP" & sema="cor:original"] b:[lema="Pedras=Rubras" & pos="PROP"] <mwe lema="Pedras=Rubras" pos="PROP" sema="cor:original"> a: b: </mwe>
+
+a:[lema="mar"] b:[lema="negro"] >> a:[lema="Mar=Negro" & pos="PROP"] b:[lema="Mar=Negro" & pos="PROP"] 
+
+a:[lema="mar"] b:[lema="vermelho"] >> a:[lema="Mar=Vermelho" & pos="PROP"] b:[lema="Mar=Vermelho" & pos="PROP"] 
+
+a:[lema="mar"] b:[lema="morto"] >> a:[lema="Mar=Morto" & pos="PROP"] b:[lema="Mar=Morto" & pos="PROP"] 
+
+# regras relativas a lemas
+
+[lema="amarelo-torrada"] >> [lema="amarelo-torrado"]
+[lema="aurinegras"] >> [lema="aurinegro"]
+[lema="azulono"] >> [lema="azul"] #NILC + CHAVE + CETEM
+[lema="cinzentonas"] >> [lema="cinzentão"]
+[lema="escarlato"] >> [lema="escarlate"]
+[lema="havano"] >> [lema="havana"]
+[lema="laranja-de-acrídio"] >> [lema="laranja-de-acridina"]
+[lema="liláceas"] >> [lema="liláceo"]
+[lema="loiríssima-lindíssimo"] >> [lema="loira-linda" & temcagr="SUP"]
+[lema="mambo-verde"] >> [lema="mamba-verde"]
+[lema="turmalino"] >> [lema="turmalina"]
+[lema="ultravioleto"] >> [lema="ultravioleta"]
+[lema="verde-bandeiro"] >> [lema="verde-bandeira"]
+
+# adição de dininutivos ou aumentativos
+[lema="azulão"] >> [lema="azul" & temcagr="AUM"]
+[lema="azulinho"] >> [lema="azul" & temcagr="DIM"]
+
+[lema="vermelhão"] >> [lema="vermelho" & temcagr="AUM"]
+
+# correcção de erros de ortografia
+a:[word="cór"] b:[word="de"] c:[word="vinho"] >> a:[word="côr" & lema="cor"]
+[word="tecnico"] >> [word="técnico" & lema="técnico"]
+a:[word="tona"] b:[word="de"] c:[lema="marinho"] >> a:[word="tons" & lema="tom" & gen="M"] 
+
+
+# regras relativas a alvo
+[lema="ser"] a:[lema="alvo" & func="<SC"] [lema="de"] >> a:[pos="N"] 
+[pos="V.*"] a:[lema="alvo" & pos="ADJ.*"]  >> a:[pos="N"] 
+[lema="cliente|como|consumidor|enquanto|mercado|número|população|principal|público|Público|soldado"] b:[lema="alvo" & pos="ADJ.*"] >> b:[pos="N"]
+
+
+# regras relativas a tinto
+a:[lema="vinho"] b:[lema="tingir" & word="tinto"] >> b:[lema="tinto" & pos="ADJ" & temcagr="0"]
+[lema="tingir" & word="tinto"] >> [lema="tinto" & pos="N"]
+
+#regras relativas a cinza
+[lema="cinza" & pos="ADJ" & pessnum="P"] >> [pos="N"]
+
+#regras relativas a creme
+a:[lema="creme"] b:[lema="anestésico|bronzeador|condicionador|protector|queimado|solar"] >> a:[pos="N" & gen="M"]
+a:[lema="creme" & pos="ADJ"] b:[word="de"] c:[lema="cenoura|legumes|leite|marisco|pastelaria|tomate"] >> a:[pos="N" & gen="M"]
+
+#regras relativas a maravilha
+a:[lema="lilás|rosa"] b:[lema=","] c:[lema="maravilhar"] >> c:[lema="maravilha" & pos="ADJ"] #CONDIV e NILC
+
+
+#regras relativas a POS de cores
+[lema="cor"] a:[lema="aço|marfim"] >> a:[pos="ADJ"]
+[lema="cetim|cor|garrafas|pele|tecido"] a:[lema="âmbar"] >> a:[pos="ADJ"] 
+a:[lema="algodão|blusão|cabedal|camurça|cardigan|casaco|cetim|chiffon|crepe|fundo|jersei|jérsei|lã|linho|motivo|piqué|renda|sarja|seda|shantung|sombra|tecido|túnica|veludo|vestido"] b:[lema="areia|caramelo|cereja|champanhe|chocolate|cinza|cobre|coral|ferrugem|framboesa|malva|marfim|ouro|turmalina|turquesa|violeta"] >> b:[pos="ADJ"]
+a:[lema="aveludada|grosso|linha|listra|riscado|selvagem|top"] b:[lema="turquesa"] >> b:[pos="ADJ"]
+a:[lema="buclê|crepe|pelica|sahariènne"] b:[lema="marfim"] >> b:[pos="ADJ"]
+a:[lema="cetim|tafetá|tom"] b:[word="pérola" & pos="N"] >> b:[pos="ADJ" & gen="M"]
+a:[lema="pigmento|tafetá|veludo"] b:[lema="rubi"] >> b:[pos="ADJ"]
+
+a:[lema="camisa"] b:[lema="salmão" & pos="N"] >> b:[pos="ADJ" & gen="F"]
+
+a:[lema="chiffon"] b:[lema="salmão" & pos="N"] >> b:[pos="ADJ"]
+
+a:[lema="ser"] b:[word="rosas" & pos="ADJ"] >> b:[pos="N"]
+
+a:[lema="lanolina|sumo|uso"] b:[word="e|de"] c:[lema="laranja" & pos="ADJ"] >> c:[pos="N"]
+
+#a:[lema="laranja" & pos="ADJ"] b:[word=",|"] c:[lema="limão|pêra|pêssego|sol|tangerina|tomare|tomate"] >> a:[pos="N"]
+
+a:[lema="laranja" & pos="ADJ"] b:[word=",|"] c:[lema="limão|pêra|pêssego|sol|tangerina|tomate"] >> a:[pos="N"]
+
+a:[word="mística" & pos="N"] b:[word="rosa" & pos="ADJ"] >> a:[lema="místico" & pos="ADJ"] b:[pos="N"]
+
+
+[word="são"] a:[word="alvo" & pos="ADJ"] >> a:[pos="N"]

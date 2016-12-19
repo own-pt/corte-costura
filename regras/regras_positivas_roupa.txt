@@ -1,0 +1,112 @@
+# Regras positivas para a roupa
+# Última versão: 30 de Julho de 2010
+
+
+# peça
+
+a:[word="peças"] [word="conjugadas"] >> a:[sema="roupa"]
+
+a:[lema="peça"] [word="em"] [word="tons"] >> a:[sema="roupa"]
+
+
+# malha como peça de roupa
+
+[word="Benetton"] [word=","] [word="como"] [word="as"] [word="suas"] a:[word="malhas"] >> a:[sema="roupa" & grupo="NãoEspecificada"]
+
+[word="fica"] [word="muito"] [word="bem"] [word="de"] a:[word="malhas"] >> a:[sema="roupa" & grupo="Meias"]
+
+a:[word="Malhas"] [word="de"] [word="jersey"] >> a:[sema="roupa" & grupo="NãoEspecificada"]
+
+[word="Silhuetas"] [word="longas"] [word=","] [word="de"] a:[word="malha"] >> a:[sema="roupa" & grupo="NãoEspecificada"]
+
+a:[word="malhas"] [word="de"] [word="Júlio"] [word="Torcato"] >> a:[sema="roupa" & grupo="NãoEspecificada"]
+
+a:[word="malhas"] [word="de"] [word="reduzidas"] [word="dimensões"] >> a:[sema="roupa" & grupo="NãoEspecificada"]
+
+a:[word="malhas"] [word="e"] [word="outras"] b:[word="peças"] [word="de"] c:[word="vestuário"] >> a:[sema="roupa" & grupo="NãoEspecificada"] b:[sema="roupa" & grupo="NãoEspecificada"] <mwe lema="peça=de=vestuário" sema="roupa"> b: c: </mwe>
+
+[word="camisolas"] [word="e"] a:[word="malhas"] >> a:[sema="roupa" & grupo="NãoEspecificada"]
+
+[word="cartazes"] [word="da"] [word="Benetton"] [word="são"] [word="para"] [word="vender"] a:[word="malhas"] >> a:[sema="roupa" & grupo="NãoEspecificada"]
+
+[lema="colecção|linha"] [word="de"] a:[word="malhas"] >> a:[sema="roupa" & grupo="NãoEspecificada"]
+
+[word="império|indrustrial|rei"] [word="das"] a:[word="malhas"] >> a:[sema="roupa" & grupo="NãoEspecificada"]
+
+[word="algodões"] [word="nas"] [word="suas"] a:[word="malhas"] >> a:[sema="roupa" & grupo="NãoEspecificada"]
+
+a:[word="malhas"] [word="Anasus|Benetton|Comax|Dextra|Guial|Jotex|Luzcor"] >> a:[sema="roupa" & grupo="NãoEspecificada"]
+
+# Confirmar se em "fábrica de malhas", "malhas" é sempre relativo a roupa e não a redes  
+[word="fábrica"] [word="de"] a:[word="malhas"] >> a:[sema="roupa" & grupo="NãoEspecificada"]
+
+a:[word="malhas"] [word="azuis"] [word="e"] [word="brancas"] >> a:[sema="roupa" & grupo="NãoEspecificada"]
+
+a:[word="malhas"] [word="coleantes|coloridas|conjugadas|decotadas|irlandesas|justas|largas"] >> a:[sema="roupa" & grupo="NãoEspecificada"]
+
+a:[lema="malha"] [lema="colante"] >> a:[sema="roupa" & grupo="NãoEspecificada"]
+
+a:[word="malhas"] [word="de"] [word="verão"] >> a:[sema="roupa" & grupo="NãoEspecificada"]
+
+# Regras lexicais ou mais genéricas?
+# Lexicais:
+# a:[word="malhas"] [word="e"] [word="casacos|coletes|gangas|lingerie"] >> a:[sema="roupa" & grupo="NãoEspecificada"]
+# a:[word="malhas"] [word="e"] [word="fatos"] [word="de"] [word="banho"] >> a:[sema="roupa" & grupo="NãoEspecificada"]
+# Genéricas:
+a:[word="malhas"] [word="e"] [sema="roupa"] >> a:[sema="roupa" & grupo="NãoEspecificada"]
+a:[word="malhas"] [word="e"] [sema="roupa" & grupo="Materiais"] >> a:[sema="roupa" & grupo="Materiais"]
+# Será que a segunda devia ir para as regras negativas? Também podia ser ao contrário, mas como as coordenações que existem no corpo são com peças de roupa e não com materiais...; ou isso ou só se usa a primeira regra mas garante-se que o grupo nao é Materiais
+
+
+a:[word="malhas"] [word="e"] [word="outros"] [word="artigos"] >> a:[sema="roupa" & grupo="NãoEspecificada"]
+
+a:[word="malhas"] [word="made"] [word="in"] [word="Macau"] >> a:[sema="roupa" & grupo="NãoEspecificada"]
+
+a:[word="malhas"] [word="para"] [lema="o|"] [lema="homem|mulher"] >> a:[sema="roupa" & grupo="NãoEspecificada"]
+
+a:[word="malhas"] [word="que"] [word="denunciam"] [word="as"] [word="linhas"] [word="do"] [word="corpo"] >> a:[sema="roupa" & grupo="NãoEspecificada"]
+
+a:[word="malhas"] [word="são"] [word="frescas"] >> a:[sema="roupa" & grupo="NãoEspecificada"]
+
+# confirmar se precisa de "italianas"
+[word="marca"] [word="de"] a:[word="malhas"] [word="italianas"] >> a:[sema="roupa" & grupo="NãoEspecificada"]
+
+[word="multinacional"] [word="italiana"] [word="de"] a:[word="malhas"] >> a:[sema="roupa" & grupo="NãoEspecificada"]
+
+[word="saias"] [word="e"] [word="às"] a:[word="malhas"] >> a:[sema="roupa" & grupo="NãoEspecificada"]
+
+a:[lema="malha"] [word="de"] [grupo="Materiais"] >> a:[sema="roupa" & grupo="NãoEspecificada"]
+
+
+# malha como material
+
+[word="Sandálias"] [word="de"] a:[word="malha"] b:[word="elástica"] >> a:[sema="roupa" & grupo="Materiais"] <mwe lema="malha=elástica" sema="roupa"> a: b: </mwe>
+
+[word="a"] a:[word="malha"] [word="volta"] [word="a"] [word="registar"] [word="alguma"] [word="recuperação"] >> a:[sema="roupa" & grupo="Materiais"]
+
+[sema="roupa"] [word="de"] a:[word="malha"] >> a:[sema="roupa" & grupo="Materiais"]
+
+a:[word="malhas"] [word="em"] [word="ponto"] [word="de"] [word="arroz"] >> a:[sema="roupa" & grupo="Materiais"]
+
+a:[word="malhas"] [word="trabalhadas"] [word="e"] [word="rendadas"] >> a:[sema="roupa" & grupo="Materiais"]
+
+[word="lãs"] [word="e"] a:[sema="malhas"] >> a:[sema="roupa" & grupo="Materiais"]
+
+
+# será que também é Materiais?
+
+[word="motivos"] [word="gráficos"] [word="nas"] a:[word="malhas"] [word="evocam"] >> a:[sema="roupa" & grupo="NãoEspecificada"]
+
+# fato como peça de roupa
+
+[lema="vestir"] [pos="DET.*"] a:[lema="fato"] >> a:[sema="roupa"]
+
+# Palavras que não sendo roupa, são elementos de roupa
+
+[word="rosa"] [word="na"] a:[word="lapela"] >> a:[sema="roupa" & grupo="ElementosRoupa"]
+
+[lema="traje"] [word="com"] a:[word="galões"] >> a:[sema="roupa" & grupo="ElementosRoupa"]
+ 
+a:[lema="remendo"] [lema="de"] b:[word="cabedal"] >> a:[sema="roupa" & grupo="ElementosRoupa"] b:[sema="roupa" & grupo="Materiais"] # excl ENPCPUB
+
+[lema="coçado"] [lema="no"] a:[lema="punho"] >> a:[sema="roupa" & grupo="ElementosRoupa"]

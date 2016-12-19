@@ -1,0 +1,229 @@
+## -------
+## Ficheiro de registo do programa acdc_corte-e-costura.pl
+## Rev: 59  Data da última alteração: 2010-07-28 01:38:59 -0400 (Qua, 28 Jul 2010) 
+## -------
+AVISO: O antecedente da regra 0[lema="laranja"] >> 0[pos="ADJ"] 0[sema="cor"] é igual ao da regra 3.
+AVISO: O antecedente da regra 0<mwe.*> 0<lema="cor=de=laranja"> >> 0<pos="ADJ"> 0<sema="cor"> é igual ao da regra 10.
+AVISO: O antecedente da regra 0<mwe.*> 0<lema="folha=de=louro"> >> 0<sema="0"> 0<grupo="0"> é igual ao da regra 17.
+AVISO: O antecedente da regra 0[word="peito"] 1[word="de"] 2[word="rola"] 3[word="e"] 4<mwe.*> 5[word="aurora"] 6[word="boreal"] 7</mwe> >> 0[sema="cor"] 0<mwe lema="peito=de=rola" pos="N" sema="cor"> 2</mwe> 5[sema="cor"] 5<mwe lema="aurora=boreal" sema="cor"> 6</mwe> é igual ao da regra 23.
+AVISO: O antecedente da regra 0[word="peito"] 1[word="de"] 2[word="rola"] 3[word="e"] 4<mwe.*> 5[word="aurora"] 6[word="boreal"] 7</mwe> >> 0[sema="cor"] 0<mwe lema="peito=de=rola" pos="N" sema="cor"> 2</mwe> 5[sema="cor"] 4<lema="aurora=boreal"> 4<sema="cor"> é igual ao da regra 23.
+## Hora de início: 12 Dec 2016, 11:56:17
+
+Na posição 106 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 106 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 232 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 235 disparou a regra: 0</mwe> 1[pos="ADJ"] >> 1[sema="cor"].
+Na posição 232 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 235 disparou a regra: 0</mwe> 1[pos="ADJ"] >> 1[sema="cor"].
+Na posição 527 disparou a regra: 0[pos="ADJ"] 1<mwe.*> >> 0[sema="cor"].
+Na posição 527 disparou a regra: 0[pos="ADJ"] 1<mwe.*> >> 0[sema="cor"].
+Na posição 1734 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 1734 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 1918 disparou a regra: 0[pos="ADJ"] 1<mwe.*> >> 0[sema="cor"].
+Na posição 1923 disparou a regra: 0</mwe> 1[pos="ADJ"] >> 1[sema="cor"].
+Na posição 1926 disparou a regra: 0[pos="ADJ"] 1<mwe.*> >> 0[sema="cor"].
+Na posição 1918 disparou a regra: 0[pos="ADJ"] 1<mwe.*> >> 0[sema="cor"].
+Na posição 1923 disparou a regra: 0</mwe> 1[pos="ADJ"] >> 1[sema="cor"].
+Na posição 1926 disparou a regra: 0[pos="ADJ"] 1<mwe.*> >> 0[sema="cor"].
+Na posição 1965 disparou a regra: 0[lema="azul"] >> 0[sema="cor"].
+Na posição 1965 disparou a regra: 0[lema="azul"] >> 0[sema="cor"].
+Na posição 2167 disparou a regra: 0[lema="azul"] >> 0[sema="cor"].
+Na posição 2174 disparou a regra: 0[lema="azul"] >> 0[sema="cor"].
+Na posição 2167 disparou a regra: 0[lema="azul"] >> 0[sema="cor"].
+Na posição 2174 disparou a regra: 0[lema="azul"] >> 0[sema="cor"].
+Na posição 2180 disparou a regra: 0[lema="azul"] 1[lema="marinho"] >> 0<mwe lema="azul=marinho" pos="ADJ" sema="cor"> 1</mwe> 0[sema="cor"].
+Na posição 2179 disparou a regra: 0[pos="ADJ"] 1<mwe.*> >> 0[sema="cor"].
+Na posição 2179 disparou a regra: 0[pos="ADJ"] 1<mwe.*> >> 0[sema="cor"].
+Na posição 2584 disparou a regra: 0[lema="azul"] 1[lema="marinho"] >> 0<mwe lema="azul=marinho" pos="ADJ" sema="cor"> 1</mwe> 0[sema="cor"].
+Na posição 2613 disparou a regra: 0[pos="ADJ"] 1<mwe.*> >> 0[sema="cor"].
+Na posição 2613 disparou a regra: 0[pos="ADJ"] 1<mwe.*> >> 0[sema="cor"].
+Na posição 2732 disparou a regra: 0[pos="ADJ"] 1<mwe.*> >> 0[sema="cor"].
+Na posição 2732 disparou a regra: 0[pos="ADJ"] 1<mwe.*> >> 0[sema="cor"].
+Na posição 2850 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 2850 disparou a regra: 0<mwe.*> 1* 2</mwe> 3[word="negro"] 3[pos="ADJ"] >> 3[pos="N"].
+Na posição 2850 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> 3[word="negro"] 3[pos="N"] >> 3[pos="ADJ"].
+Na posição 2854 disparou a regra: 0</mwe> 1[pos="ADJ"] >> 1[sema="cor"].
+Na posição 2850 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 2850 disparou a regra: 0<mwe.*> 1* 2</mwe> 3[word="negro"] 3[pos="ADJ"] >> 3[pos="N"].
+Na posição 2850 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> 3[word="negro"] 3[pos="N"] >> 3[pos="ADJ"].
+Na posição 2854 disparou a regra: 0</mwe> 1[pos="ADJ"] >> 1[sema="cor"].
+Na posição 2908 disparou a regra: 0<mwe.*> 1* 2</mwe> 3[word="negro"] 3[pos="ADJ"] >> 3[pos="N"].
+Na posição 3205 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 3205 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 3335 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 3335 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 4635 disparou a regra: 0[lema="azul"] >> 0[sema="cor"].
+Na posição 4635 disparou a regra: 0[lema="azul"] >> 0[sema="cor"].
+Na posição 4968 disparou a regra: 0</mwe> 1[pos="ADJ"] >> 1[sema="cor"].
+Na posição 4968 disparou a regra: 0</mwe> 1[pos="ADJ"] >> 1[sema="cor"].
+Na posição 4996 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 4996 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 5326 disparou a regra: 0[pos="ADJ"] 1<mwe.*> >> 0[sema="cor"].
+Na posição 5327 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 5333 disparou a regra: 0[pos="ADJ"] 1<mwe.*> >> 0[sema="cor"].
+Na posição 5334 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 5326 disparou a regra: 0[pos="ADJ"] 1<mwe.*> >> 0[sema="cor"].
+Na posição 5327 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 5333 disparou a regra: 0[pos="ADJ"] 1<mwe.*> >> 0[sema="cor"].
+Na posição 5334 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 5348 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 5348 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 6175 disparou a regra: 0[lema="azul"] >> 0[sema="cor"].
+Na posição 6175 disparou a regra: 0[lema="azul"] >> 0[sema="cor"].
+Na posição 6638 disparou a regra: 0[lema="cor"] 1[lema="de"] 2[lema="laranja"] >> 0<mwe lema="cor=de=laranja" pos="ADJ" sema="cor"> 2</mwe> 0[sema="cor"].
+Na posição 6638 disparou a regra: 0<mwe.*> 0<lema="cor=de=laranja"> >> 0<sema="cor">.
+Na posição 6638 disparou a regra: 0<mwe.*> 0<lema="cor=de=.*"> >> 0<sema="cor">.
+Na posição 6638 disparou a regra: 0<mwe.*> 0<lema="cor=de=laranja"> >> 0<pos="ADJ"> 0<sema="cor">.
+Na posição 6638 disparou a regra: 0<mwe.*> 0<lema="cor=de=laranja"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 6640 disparou a regra: 0[lema="laranja"] >> 0[sema="cor"].
+Na posição 6640 disparou a regra: 0[lema="laranja"] >> 0[pos="ADJ"] 0[sema="cor"].
+Na posição 6638 disparou a regra: 0<mwe.*> 0<lema="cor=de=laranja"> >> 0<sema="cor">.
+Na posição 6638 disparou a regra: 0<mwe.*> 0<lema="cor=de=.*"> >> 0<sema="cor">.
+Na posição 6638 disparou a regra: 0<mwe.*> 0<lema="cor=de=laranja"> >> 0<pos="ADJ"> 0<sema="cor">.
+Na posição 6638 disparou a regra: 0<mwe.*> 0<lema="cor=de=laranja"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 6640 disparou a regra: 0[lema="laranja"] >> 0[sema="cor"].
+Na posição 6640 disparou a regra: 0[lema="laranja"] 0[pos="ADJ"] >> 0[sema="cor"].
+Na posição 6640 disparou a regra: 0[lema="laranja"] >> 0[pos="ADJ"] 0[sema="cor"].
+Na posição 6813 disparou a regra: 0[pos="ADJ"] 1<mwe.*> >> 0[sema="cor"].
+Na posição 6813 disparou a regra: 0[pos="ADJ"] 1<mwe.*> >> 0[sema="cor"].
+Na posição 7229 disparou a regra: 0[lema="cor"] 1[lema="de"] 2[lema="laranja"] >> 0<mwe lema="cor=de=laranja" pos="ADJ" sema="cor"> 2</mwe> 0[sema="cor"].
+Na posição 7229 disparou a regra: 0<mwe.*> 0<lema="cor=de=laranja"> >> 0<sema="cor">.
+Na posição 7229 disparou a regra: 0<mwe.*> 0<lema="cor=de=.*"> >> 0<sema="cor">.
+Na posição 7229 disparou a regra: 0<mwe.*> 0<lema="cor=de=laranja"> >> 0<pos="ADJ"> 0<sema="cor">.
+Na posição 7229 disparou a regra: 0<mwe.*> 0<lema="cor=de=laranja"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 7231 disparou a regra: 0[lema="laranja"] >> 0[sema="cor"].
+Na posição 7231 disparou a regra: 0[lema="laranja"] >> 0[pos="ADJ"] 0[sema="cor"].
+Na posição 7229 disparou a regra: 0<mwe.*> 0<lema="cor=de=laranja"> >> 0<sema="cor">.
+Na posição 7229 disparou a regra: 0<mwe.*> 0<lema="cor=de=.*"> >> 0<sema="cor">.
+Na posição 7229 disparou a regra: 0<mwe.*> 0<lema="cor=de=laranja"> >> 0<pos="ADJ"> 0<sema="cor">.
+Na posição 7229 disparou a regra: 0<mwe.*> 0<lema="cor=de=laranja"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 7231 disparou a regra: 0[lema="laranja"] >> 0[sema="cor"].
+Na posição 7231 disparou a regra: 0[lema="laranja"] 0[pos="ADJ"] >> 0[sema="cor"].
+Na posição 7231 disparou a regra: 0[lema="laranja"] >> 0[pos="ADJ"] 0[sema="cor"].
+Na posição 7244 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 7244 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 7310 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 7310 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 7423 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 7423 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 7468 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 7468 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 7521 disparou a regra: 0[lema="cor"] 1[lema="de"] 2[lema="laranja"] >> 0<mwe lema="cor=de=laranja" pos="ADJ" sema="cor"> 2</mwe> 0[sema="cor"].
+Na posição 7521 disparou a regra: 0<mwe.*> 0<lema="cor=de=laranja"> >> 0<sema="cor">.
+Na posição 7521 disparou a regra: 0<mwe.*> 0<lema="cor=de=.*"> >> 0<sema="cor">.
+Na posição 7521 disparou a regra: 0<mwe.*> 0<lema="cor=de=laranja"> >> 0<pos="ADJ"> 0<sema="cor">.
+Na posição 7521 disparou a regra: 0<mwe.*> 0<lema="cor=de=laranja"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 7523 disparou a regra: 0[lema="laranja"] >> 0[sema="cor"].
+Na posição 7523 disparou a regra: 0[lema="laranja"] >> 0[pos="ADJ"] 0[sema="cor"].
+Na posição 7521 disparou a regra: 0<mwe.*> 0<lema="cor=de=laranja"> >> 0<sema="cor">.
+Na posição 7521 disparou a regra: 0<mwe.*> 0<lema="cor=de=.*"> >> 0<sema="cor">.
+Na posição 7521 disparou a regra: 0<mwe.*> 0<lema="cor=de=laranja"> >> 0<pos="ADJ"> 0<sema="cor">.
+Na posição 7521 disparou a regra: 0<mwe.*> 0<lema="cor=de=laranja"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 7523 disparou a regra: 0[lema="laranja"] >> 0[sema="cor"].
+Na posição 7523 disparou a regra: 0[lema="laranja"] 0[pos="ADJ"] >> 0[sema="cor"].
+Na posição 7523 disparou a regra: 0[lema="laranja"] >> 0[pos="ADJ"] 0[sema="cor"].
+Na posição 7565 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 7565 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 7594 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 7594 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 7676 disparou a regra: 0[lema="azul"] >> 0[sema="cor"].
+Na posição 7676 disparou a regra: 0[lema="azul"] >> 0[sema="cor"].
+Na posição 8062 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 8066 disparou a regra: 0</mwe> 1[pos="ADJ"] >> 1[sema="cor"].
+Na posição 8062 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 8066 disparou a regra: 0</mwe> 1[pos="ADJ"] >> 1[sema="cor"].
+Na posição 8129 disparou a regra: 0[pos="N"] 1<mwe.*> 2* 3</mwe> 4[lema="e"] >> 0[sema="cor"] 1<sema="cor">.
+Na posição 8129 disparou a regra: 0[pos="N"] 1<mwe.*> 2* 3</mwe> 4[lema="e"] >> 0[sema="cor"] 1<sema="cor">.
+Na posição 8262 disparou a regra: 0[lema="azul"] >> 0[sema="cor"].
+Na posição 8262 disparou a regra: 0[lema="azul"] >> 0[sema="cor"].
+Na posição 8609 disparou a regra: 0[lema="laranja"] >> 0[sema="cor"].
+Na posição 8609 disparou a regra: 0[lema="laranja"] >> 0[pos="ADJ"] 0[sema="cor"].
+Na posição 8609 disparou a regra: 0[lema="laranja"] >> 0[sema="cor"].
+Na posição 8609 disparou a regra: 0[lema="laranja"] 0[pos="ADJ"] >> 0[sema="cor"].
+Na posição 8609 disparou a regra: 0[lema="laranja"] >> 0[pos="ADJ"] 0[sema="cor"].
+Na posição 8902 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 8921 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 8902 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 8921 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 9050 disparou a regra: 0[lema="laranja"] >> 0[sema="cor"].
+Na posição 9050 disparou a regra: 0[lema="laranja"] >> 0[pos="ADJ"] 0[sema="cor"].
+Na posição 9050 disparou a regra: 0[lema="laranja"] >> 0[sema="cor"].
+Na posição 9050 disparou a regra: 0[lema="laranja"] 0[pos="ADJ"] >> 0[sema="cor"].
+Na posição 9050 disparou a regra: 0[lema="laranja"] >> 0[pos="ADJ"] 0[sema="cor"].
+Na posição 9785 disparou a regra: 0[pos="N"] 1<mwe.*> 2* 3</mwe> 4[lema="e"] >> 0[sema="cor"] 1<sema="cor">.
+Na posição 9785 disparou a regra: 0[pos="N"] 1<mwe.*> 2* 3</mwe> 4[lema="e"] >> 0[sema="cor"] 1<sema="cor">.
+Na posição 10433 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 10433 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 10510 disparou a regra: 0[lema="laranja"] >> 0[sema="cor"].
+Na posição 10510 disparou a regra: 0[lema="laranja"] 0[pos="ADJ"] >> 0[sema="cor"].
+Na posição 10510 disparou a regra: 0[lema="laranja"] >> 0[pos="ADJ"] 0[sema="cor"].
+Na posição 10510 disparou a regra: 0[lema="laranja"] >> 0[sema="cor"].
+Na posição 10510 disparou a regra: 0[lema="laranja"] 0[pos="ADJ"] >> 0[sema="cor"].
+Na posição 10510 disparou a regra: 0[lema="laranja"] >> 0[pos="ADJ"] 0[sema="cor"].
+Na posição 10535 disparou a regra: 0[lema="laranja"] >> 0[sema="cor"].
+Na posição 10535 disparou a regra: 0[lema="laranja"] >> 0[pos="ADJ"] 0[sema="cor"].
+Na posição 10535 disparou a regra: 0[lema="laranja"] >> 0[sema="cor"].
+Na posição 10535 disparou a regra: 0[lema="laranja"] 0[pos="ADJ"] >> 0[sema="cor"].
+Na posição 10535 disparou a regra: 0[lema="laranja"] >> 0[pos="ADJ"] 0[sema="cor"].
+Na posição 10624 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 10624 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 10798 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 10798 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 10893 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 10893 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 10923 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 10923 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 11211 disparou a regra: 0</mwe> 1[pos="ADJ"] >> 1[sema="cor"].
+Na posição 11211 disparou a regra: 0</mwe> 1[pos="ADJ"] >> 1[sema="cor"].
+Na posição 11357 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 11357 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 11453 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 11453 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 11541 disparou a regra: 0</mwe> 1[pos="ADJ"] >> 1[sema="cor"].
+Na posição 11541 disparou a regra: 0</mwe> 1[pos="ADJ"] >> 1[sema="cor"].
+Na posição 11572 disparou a regra: 0</mwe> 1[pos="ADJ"] >> 1[sema="cor"].
+Na posição 11572 disparou a regra: 0</mwe> 1[pos="ADJ"] >> 1[sema="cor"].
+Na posição 12192 disparou a regra: 0[pos="ADJ"] 1<mwe.*> >> 0[sema="cor"].
+Na posição 12193 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 12192 disparou a regra: 0[pos="ADJ"] 1<mwe.*> >> 0[sema="cor"].
+Na posição 12193 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 12634 disparou a regra: 0</mwe> 1[pos="ADJ"] >> 1[sema="cor"].
+Na posição 12634 disparou a regra: 0</mwe> 1[pos="ADJ"] >> 1[sema="cor"].
+Na posição 12955 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 12955 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 13006 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 13006 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 13071 disparou a regra: 0</mwe> 1[pos="ADJ"] >> 1[sema="cor"].
+Na posição 13071 disparou a regra: 0</mwe> 1[pos="ADJ"] >> 1[sema="cor"].
+Na posição 13334 disparou a regra: 0[lema="laranja"] >> 0[sema="cor"].
+Na posição 13334 disparou a regra: 0[lema="laranja"] 0[pos="ADJ"] >> 0[sema="cor"].
+Na posição 13334 disparou a regra: 0[lema="laranja"] >> 0[pos="ADJ"] 0[sema="cor"].
+Na posição 13334 disparou a regra: 0[lema="laranja"] >> 0[sema="cor"].
+Na posição 13334 disparou a regra: 0[lema="laranja"] 0[pos="ADJ"] >> 0[sema="cor"].
+Na posição 13334 disparou a regra: 0[lema="laranja"] >> 0[pos="ADJ"] 0[sema="cor"].
+Na posição 13689 disparou a regra: 0[lema="laranja"] >> 0[sema="cor"].
+Na posição 13689 disparou a regra: 0[lema="laranja"] >> 0[pos="ADJ"] 0[sema="cor"].
+Na posição 13689 disparou a regra: 0[lema="laranja"] >> 0[sema="cor"].
+Na posição 13689 disparou a regra: 0[lema="laranja"] 0[pos="ADJ"] >> 0[sema="cor"].
+Na posição 13689 disparou a regra: 0[lema="laranja"] >> 0[pos="ADJ"] 0[sema="cor"].
+Na posição 14016 disparou a regra: 0[lema="laranja"] >> 0[sema="cor"].
+Na posição 14016 disparou a regra: 0[lema="laranja"] >> 0[pos="ADJ"] 0[sema="cor"].
+Na posição 14016 disparou a regra: 0[lema="laranja"] >> 0[sema="cor"].
+Na posição 14016 disparou a regra: 0[lema="laranja"] 0[pos="ADJ"] >> 0[sema="cor"].
+Na posição 14016 disparou a regra: 0[lema="laranja"] >> 0[pos="ADJ"] 0[sema="cor"].
+Na posição 14154 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 14154 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 14314 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 14314 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 14385 disparou a regra: 0[lema="cor"] 1[lema="de"] 2[lema="limão"] 3[lema="ou"] 4[lema="de"] 5[lema="pêssego"] >> 0<mwe> 2</mwe> 4<mwe> 5</mwe>.
+Na posição 14385 disparou a regra: 0<mwe.*> 1* 2</mwe> 3[lema="ou"] 4<mwe.*> 5* 6</mwe> >> 0<sema="cor">.
+Na posição 14384 disparou a regra: 0[pos="ADJ"] 1<mwe.*> >> 0[sema="cor"].
+Na posição 14385 disparou a regra: 0<mwe.*> 1* 2</mwe> 3[lema="ou"] 4<mwe.*> 5* 6</mwe> >> 0<sema="cor">.
+Na posição 14384 disparou a regra: 0[pos="ADJ"] 1<mwe.*> >> 0[sema="cor"].
+Na posição 14385 disparou a regra: 0<mwe.*> 1* 2</mwe> 3[lema="ou"] 4<mwe.*> 5* 6</mwe> >> 0<sema="cor">.
+Na posição 14627 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 14627 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 14701 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+Na posição 14701 disparou a regra: 0<mwe.*> 0<pos="N"> 1* 2</mwe> >> 0<sema="cor">.
+
+## Hora de fim: 12 Dec 2016, 11:56:23

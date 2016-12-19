@@ -1,0 +1,10 @@
+# Regras positivas
+# Última versão: 3 de Agosto de 2010
+#
+# Estas regras alteram ou especializam casos marcados inicialmente como cor, 
+# quer sejam vagos, quer sejam casos de raça ou de original ou de outros casos
+
+
+# Esta regra é específica da manta de retalhos, porque não existe contexto suficiente na frase que permita criar uma regra genérica. É necessário recorrer às frases anteriores para deduzir que "acinzentou" está a modificar "cabelo": "Que o ramo gera cabelos brancos não se discute. É só olhar para o Fernando Henrique. Em poucos meses acinzentou todo.". Como é a única ocorrência do verbo "acinzentar" na manta de retalhos, não é necessário acrescentar contexto à regra.
+
+[lema="acizentar"]  >> [deriv="37ex" & sema="cor:humana"]

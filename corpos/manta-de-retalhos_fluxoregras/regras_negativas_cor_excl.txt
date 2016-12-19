@@ -1,0 +1,14 @@
+# Regras negativas
+# Última versão: 3 de Agosto de 2010
+#
+# Regras para retirar os casos em que o grosso das ocorrências são cor
+# mas há alguns casos em que não são
+#
+
+
+# Esta regra (1) é específica da manta de retalhos, porque as duas únicas ocorrências de "verduras" referem-se a "legumes". Por isso, a regra específica, que não usa contexto, apenas pode ser usada neste texto. Alternativamente, também se poderia ter criado as regras (2) e (3) que seriam acrescentadas aos ficheiros de regras genéricas, que podem ser aplicadas a qualquer corpo. 
+
+[lema="verdura"] >> [deriv="38ex" & sema="0" & grupo="0"] # (1)
+
+# [lema="comer"] a:[lema="verdura"] >> a:[sema="0" & grupo="0"] (2)
+# a:[word="verduras"] [word="e"] [word="frutas"] >> a:[sema="0" & grupo="0"] (3)

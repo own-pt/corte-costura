@@ -9,7 +9,7 @@
 # cria o ficheiro de log: log_regras_teste
 
 
-export DIR_CORTECOSTURA=/Users/arademaker/Downloads/corte-e-costura-1.0
+export DIR_CORTECOSTURA=/Users/arademaker/work/corte-e-costura-1.0
 
 echo "ACDC_CORTE-E-COSTURA_TESTE com profundidade 1: resultado em corpus_cor"
 

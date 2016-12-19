@@ -1,0 +1,227 @@
+
+Corte-e-costura 1.0
+-------------------
+
+1. Introdução
+2. Estrutura do pacote
+3. Mantas de retalhos
+4. Listas de exemplos de palavras de cor e de roupa
+5. Regras de anotação
+6. Programas
+7. Agradecimentos
+
+
+1. Introdução
+-------------------------------
+
+Este pacote está acessível a partir de
+http://www.linguateca.pt/acesso/corte-e-costura/corte-e-costura-1.0.zip,
+e inclui:
+
+- os programas necessários para anotar os corpos do AC/DC, no formato
+  do PALAVRAS, com anotação semântica;
+
+- dois corpos de teste: manta-de-retalhos_formatoregras, com vários
+  exemplos que permitem ilustrar a sintaxe das regras que podem ser
+  aplicadas pelo programa corte-e-costura, e
+  manta-de-retalhos_fluxoregras, com vários exemplos que permitem
+  ilustrar os vários tipos de regras e o fluxo de programas que os
+  aplicam.
+
+- listas de exemplos de palavras pertencentes aos campos semânticos da
+  cor e da roupa;
+
+- conjuntos de regras de anotação.
+
+Documentação adicional pode ser acedida usando o SUPeRB
+(http://www.linguateca.pt/superb/busca_publ.pl?q=tags%253AACDC;script_link=1)
+ou consultando a página dedicada ao corte-e-costura
+(http://www.linguateca.pt/ACDC/corte-e-costura/).
+
+
+2. Estrutura do pacote
+-------------------------------
+
+Este pacote contém quatro directorias, que compreendem os recursos
+indicados em 3., 4., 5., e 6., respectivamente:
+
+corpos/
+lexicos/
+regras/
+programas/
+
+
+3. Mantas de retalhos
+--------------------
+
+O pacote inclui duas mantas de retalhos:
+
+- manta-de-retalhos_formatoregras, que permite testar o programa
+  corte-e-costura, ilustrando a sintaxe das regras que o programa
+  consegue reconhecer e aplicar. O corpo foi criado a partir de frases
+  existentes nos corpos do AC/DC, que foram nalguns casos replicadas e
+  modificadas para prever todos os casos de regras que se
+  ilustram. Deve usar-se em combinação com o programa de teste
+  acdc_corte-e-costura_teste.sh (ver secção 6. Programas).
+
+- manta-de-retalhos_fluxoregras, que permite testar o pacote
+  corte-e-costura, ilustrando os diferentes tipos de regras (de
+  correcção, positivas, negativas, de especialização e recursivas) e o
+  fluxo completo de aplicação dos vários programas com listas de
+  exemplos e regras. O corpo foi criado apenas com frases existentes
+  no corpos do AC/DC; quando existiam, foram retirados os campos entre
+  a palavra e o seu lema, de modo a uniformizar o número de colunas do
+  corpo, uma vez que nem todos os corpos fonte têm o mesmo número de
+  campos/colunas. Deve usar-se em combinação com o programa de teste
+  acdc_pinta_corpo_teste.sh (ver secção 6. Programas).
+ 
+
+4. Listas de exemplos de palavras de cor e de roupa
+----------------------------
+
+As listas de exemplos encontram-se organizadas por campo semântico,
+tipo de palavra (simples ou multi-palavra) e categoria gramatical:
+
+cor.txt: palavras que designam nomes de cores
+cor_A.txt: cores que só são usadas como adjectivos
+cor_V.txt: verbos que transmitem cor ou ausência de cor
+cor_mwe.txt: multi-palavras que designam nomes de cores 	
+
+roupa_A.txt: adjectivos que modificam ou se aplicam a roupa
+roupa_N.txt: nomes que designam roupas	
+roupa_mwe.txt: nomes multi-palavra que designam roupas 
+
+Para cada campo semântico existe um ficheiro que classifica as
+palavras desse campo semântico em grupos:
+
+Grupos_cor.txt: identifica os grupos de cor e as cores pertencentes a cada grupo
+Grupos_roupa.txt: identifica os grupos de roupa e as roupas pertencentes a cada grupo
+
+O campo semântico da roupa inclui ainda um ficheiro de classes de
+roupa (Classes_roupa.txt).
+
+
+5. Regras de anotação
+---------------------
+
+O pacote inclui:
+
+- um ficheiro de regras de teste do programa corte-e-costura:
+
+  - regras_corte-e-costura_cor_teste.txt: contém regras que ilustram a
+    sintaxe das regras.
+
+  Estas regras devem ser aplicadas a manta-de-retalhos_formatoregras
+  usando o programa de teste acdc_corte-e-costura_teste.sh (ver secção
+  6. Programas).
+
+
+- cinco ficheiros de regras genéricas de teste do pacote (que se
+  encontram na directoria regras) e cinco ficheiros de regras de teste
+  exclusivas da manta-de-retalhos_fluxoregras (que se encontram na
+  directoria do corpo):
+
+  - regras_correccao_PALAVRAS_cor_teste.txt: exemplos de regras
+    genéricas de teste que corrigem erros de anotação
+
+  - regras_positivas_cor_teste.txt: exemplos de regras genéricas de
+    teste que adicionam informação relativa ao campo semântico
+
+  - regras_negativas_cor_teste.txt: exemplos de regras genéricas de
+    teste que removem informação relativa ao campo semântico
+
+  - regras_especializacao_cor_teste.txt: exemplos de regras genéricas
+    de teste que adicionam informação mais específica sobre o campo
+    semântico
+
+  - regras_recursivas_cor_teste.txt: exemplos de regras genéricas de
+    teste que fazem modificações até não haver novas modificações na
+    anotação
+
+  - regras_correccao_PALAVRAS_cor_excl.txt: exemplos de regras
+    exclusivas que corrigem erros de anotação
+
+  - regras_positivas_cor_excl.txt: exemplos de regras exclusivas que
+    adicionam informação relativa ao campo semântico
+
+  - regras_negativas_cor_excl.txt: exemplos de regras exclusivas que
+    removem informação relativa ao campo semântico
+
+  - regras_especializacao_cor_excl.txt: exemplos de regras exclusivas
+    que adicionam informação mais específica sobre o campo semântico
+  
+  - regras_recursivas_cor_excl.txt: exemplos de regras exclusivas que
+    fazem modificações até não haver novas modificações na anotação
+  
+
+  Estas regras devem ser aplicadas a manta-de-retalhos_fluxoregras
+  usando o programa de teste acdc_pinta_corpo_teste.sh (ver secção
+  6. Programas).
+
+- dez ficheiros de regras genéricas (que se encontram na directoria
+  regras), cinco para anotação de cor e outros cinco para anotação de
+  roupa, com a versão actual, à data da distribuição do pacote, que é
+  usada na anotação dos corpos do AC/DC:
+
+  - regras_correccao_PALAVRAS_{cor|roupa}.txt: exemplos de regras
+    genéricas que corrigem erros de anotação
+
+  - regras_positivas_{cor|roupa}.txt: exemplos de regras genéricas que
+    adicionam informação relativa ao campo semântico
+
+  - regras_negativas_{cor|roupa}.txt: exemplos de regras genéricas que
+    removem informação relativa ao campo semântico
+
+  - regras_especializacao_{cor|roupa}.txt: exemplos de regras
+    genéricas que adicionam informação mais específica sobre o campo
+    semântico
+
+  - regras_recursivas_{cor|roupa}.txt: exemplos de regras genéricas
+    que fazem modificações até não haver novas modificações na
+    anotação
+
+
+6. Programas 
+------------
+
+6.1 Requisitos
+
+- Perl v5.8.8
+
+6.2 Instalação e utilização
+
+- Extrair o conteúdo deste pacote para onde for pretendido
+
+- Editar os ficheiros acdc_pinta_corpo.sh, acdc_pinta_corpo_teste.sh e
+  acdc_corte-e-costura_teste.sh e modificar a variável
+  DIR_CORTECOSTURA para o caminho completo onde o corte-e-costura foi
+  instalado
+
+- Fazer a invocação dos programas a partir da directoria que contém o
+  corpo que se pretende anotar.
+
+6.3 Manual de utilização
+
+- O manual, ficheiro manual.html, encontra-se na directoria raiz do
+  pacote corte-e-costura.
+
+6.4 Licença
+
+Todos os programas incluídos no pacote são distribuídos com base na
+licença BSD (ver LICENSE.txt).
+
+
+7. Agradecimentos
+-----------------
+
+A Linguateca é financiada pelo governo português e pela União Europeia
+(FEDER e FSE), no âmbito do contrato POSC/339/1.3/C/NAC, e pela FCCN e
+pela UMIC.  Agradecemos à Rosário Silva pela criação das regras de
+anotação da cor e também por ter iniciado a criação das regras de
+anotação da roupa, e ao Fernando Ribeiro pelos inúmeros testes que
+executou com o pacote.
+
+
+------------------------------------------
+Data de actualização do presente ficheiro: 25 de Agosto de 2010
+------------------------------------------

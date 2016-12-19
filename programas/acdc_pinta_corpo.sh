@@ -14,7 +14,7 @@
 # log_regras_espec
 # log_regras_recur
 
-export DIR_CORTECOSTURA=/Users/arademaker/Downloads/corte-e-costura-1.0
+export DIR_CORTECOSTURA=/Users/arademaker/work/corte-e-costura-1.0
 
 cat $DIR_CORTECOSTURA/regras/regras_corr_PALAVRAS_[cr]*.txt regras_corr_PALAVRAS$2_[cr]*_excl.txt > corr_PALAVRAS.txt
 cat $DIR_CORTECOSTURA/regras/regras_positivas_[cr]*.txt regras_positivas$2_[cr]*_excl.txt  $DIR_CORTECOSTURA/regras/regras_negativas_[cr]*.txt regras_negativas$2_[cr]*_excl.txt > outras_regras.txt

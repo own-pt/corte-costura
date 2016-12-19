@@ -13,7 +13,7 @@
 #    acdc_pinta_corpo_teste "1" -p
 #
 
-export DIR_CORTECOSTURA=/Users/arademaker/Downloads/corte-e-costura-1.0
+export DIR_CORTECOSTURA=/Users/arademaker/work/corte-e-costura-1.0
 
 cat $DIR_CORTECOSTURA/regras/regras_corr_PALAVRAS_cor_teste.txt regras_corr_PALAVRAS_cor_excl.txt > corr_PALAVRAS.txt
 cat $DIR_CORTECOSTURA/regras/regras_especializacao_cor_teste.txt regras_especializacao_cor_excl.txt > especializacao.txt

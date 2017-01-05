@@ -2176,7 +2176,7 @@ azul	azul	ADJ	0	S	M	N<	0	cor
 </s>
 <s>
 Rímel	rímel	N	0	S	M	SUBJ>	0
-colorido	colorido	ADJ	0	S	M	N<	0	cor
+colorido	colorido	ADJ	0	S	M	N<	0
 <mwe lema="azul=marinho" pos="ADJ" sema="cor">
 azul	azul	ADJ	0	S	M	N<	0	cor
 marinho	marinho	ADJ	0	S	M	N<	0
@@ -14391,7 +14391,7 @@ irisa	irisar	V	PR_IND	3S	0	FMV	0
 ,	,	PU	0	0	0	PONT	0
 dessas	de+esse	PRP+DET_dem	0	P	F	<ADVL+>N	0
 pequenas	pequeno	ADJ_n	0	P	F	P<	0
-conchinhas	conchinhas	ADJ	0	P	F	>N	DERS	cor
+conchinhas	conchinhas	ADJ	0	P	F	>N	DERS
 <mwe>
 cor	cor	N	0	S	F	P<	0
 de	de	PRP	0	0	0	N<	0

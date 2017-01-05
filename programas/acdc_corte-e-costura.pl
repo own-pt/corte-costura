@@ -365,7 +365,7 @@ while (<REGRAS>) {
 	$regra =~ s/ *\n//;
 	if( ($antecedente, $consequente) = ($_=~/^(.+) $SEPARADOR +(.+)/)){
 	    if ($antecedente =~ /^ *$TERMOA( +$TERMOA)* *$/ and ($consequente =~ /^$TERMOC( +$TERMOC)* *$/ 
-							       or $consequente =~ /<mwe( +$ATRIBUTO=\"$VALOR\")*>(( *[a-z]: *)+)<\/mwe>/)){
+								 or $consequente =~ /<mwe( +$ATRIBUTO=\"$VALOR\")*>(( *[a-z]: *)+)<\/mwe>/)){
 		$antecedente = normaliza_antecedente $antecedente;
 		$consequente = normaliza_consequente $consequente;
 		if( $indice_antecedentes{$antecedente} ){

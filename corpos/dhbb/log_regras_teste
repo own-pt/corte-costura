@@ -1,0 +1,57 @@
+## -------
+## Ficheiro de registo do programa acdc_corte-e-costura.pl
+## Rev: 59  Data da última alteração: 2010-07-28 01:38:59 -0400 (Qua, 28 Jul 2010) 
+## -------
+## Hora de início:  5 Jan 2017, 12:31:13
+
+Na posição 2 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 5 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 7 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 16 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 18 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 32 disparou a regra: 0[lema="em"] 1[word="o"] 2[pos="NP00000"] >> 2[sema="lugar"].
+Na posição 32 disparou a regra: 0[lema="em"] 1[word="o"] 2[pos="NP00000"] >> 2[sema="lugar"].
+Na posição 46 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 57 disparou a regra: 0[lema="em"] 1[word="o"] 2[pos="NP00000"] >> 2[sema="lugar"].
+Na posição 57 disparou a regra: 0[lema="em"] 1[word="o"] 2[pos="NP00000"] >> 2[sema="lugar"].
+Na posição 74 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 78 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 97 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 116 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 137 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 180 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 187 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 189 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 192 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 207 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 218 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 222 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 233 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 268 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 270 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 287 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 289 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 308 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 329 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 342 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 344 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 357 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 359 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 361 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 363 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 365 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 367 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 369 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 371 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 373 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 375 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 389 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 392 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 406 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 416 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 443 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 458 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 485 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+Na posição 503 disparou a regra: 0[pos="NP.*"] 0[sema="_"] >> 0[sema="pessoa"].
+
+## Hora de fim:  5 Jan 2017, 12:31:13

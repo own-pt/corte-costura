@@ -1,0 +1,7 @@
+
+
+a:[lema="em"] b:[word="o"] c:[pos="NP00000"] >> c:[sema="lugar"]
+
+a:[pos="NP.*" & sema="_"] >> a:[sema="pessoa"]
+
+

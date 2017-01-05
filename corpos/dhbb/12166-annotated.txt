@@ -1,0 +1,537 @@
+<s>
+Fabio_Trad	fabio_trad	NP00000	_	_	_	nsubj	_	pessoa	_
+nasceu	nascer	VMIS3S0	_	_	_	root	_	_	_
+em	em	SP	_	_	_	case	_	_	_
+Campo_Grande	campo_grande	NP00000	_	_	_	nmod:npmod	_	pessoa	_
+(	(	Fpa	_	_	_	advcl	_	_	_
+MS	ms	NP00000	_	_	_	dobj	_	pessoa	_
+)	)	Fpt	_	_	_	conj	_	_	_
+,	,	Fc	_	_	_	conj	_	_	_
+em	em	SP	_	_	_	case	_	_	_
+o	o	DA0MS0	_	_	_	det	_	_	_
+dia_18_de_agosto_de_1969	[??:18/8/1969:??.??:??]	W	_	_	_	nmod	_	_	_
+,	,	Fc	_	_	_	dep	_	_	_
+filho	filho	NCMS000	_	_	_	dobj	_	_	_
+de	de	SP	_	_	_	case	_	_	_
+Nelson_Trad	nelson_trad	NP00000	_	_	_	nmod	_	pessoa	_
+e	e	CC	_	_	_	cc	_	_	_
+Therezinha_Mandetta_Trad	therezinha_mandetta_trad	NP00000	_	_	_	nmod	_	pessoa	_
+.	.	Fp	_	_	_	conj	_	_	_
+</s>
+
+<s>
+Fez	fazer	VMIS3S0	_	_	_	root	_	_	_
+os	o	DA0MP0	_	_	_	det	_	_	_
+primeiros	primeiro	AO0MP00	_	_	_	nsubj	_	_	_
+estudos	estudo	NCMP000	_	_	_	dobj	_	_	_
+em	em	SP	_	_	_	case	_	_	_
+sua	seu	DP3FSS	_	_	_	dep	_	_	_
+cidade	cidade	NCFS000	_	_	_	nmod	_	_	_
+natal	natal	AQ0CS00	_	_	_	amod	_	_	_
+,	,	Fc	_	_	_	parataxis	_	_	_
+em	em	SP	_	_	_	case	_	_	_
+o	o	DA0MS0	_	_	_	det	_	_	_
+Colégio_Dom_Bosco	colégio_dom_bosco	NP00000	_	_	_	nmod	_	lugar	_
+.	.	Fp	_	_	_	advcl	_	_	_
+</s>
+
+<s>
+Em	em	SP	_	_	_	mark	_	_	_
+1986	1986	Z	_	_	_	nmod	_	_	_
+,	,	Fc	_	_	_	nmod	_	_	_
+mudou	mudar	VMIS3S0	_	_	_	root	_	_	_
+se	se	PP3CN00	_	_	_	nsubj	_	_	_
+para	para	SP	_	_	_	case	_	_	_
+o	o	DA0MS0	_	_	_	det	_	_	_
+Rio	rio	NP00000	_	_	_	nmod	_	pessoa	_
+de	de	SP	_	_	_	mark	_	_	_
+Janeiro	[??:??/1/??:??.??:??]	W	_	_	_	nmod	_	_	_
+onde	onde	RG	_	_	_	advmod	_	_	_
+cursou	cursar	VMIS3S0	_	_	_	acl:relcl	_	_	_
+o	o	DA0MS0	_	_	_	det	_	_	_
+3º	3º	Z	_	_	_	nsubj	_	_	_
+ano	ano	NCMS000	_	_	_	dobj	_	_	_
+de	de	SP	_	_	_	case	_	_	_
+o	o	DA0MS0	_	_	_	det	_	_	_
+científico	científico	AQ0MS00	_	_	_	nmod	_	_	_
+em	em	SP	_	_	_	case	_	_	_
+o	o	DA0MS0	_	_	_	det	_	_	_
+Colégio_Andrews	colégio_andrews	NP00000	_	_	_	nmod	_	lugar	_
+.	.	Fp	_	_	_	advcl	_	_	_
+</s>
+
+<s>
+Ingressou	ingressar	VMIS3S0	_	_	_	root	_	_	_
+em	em	SP	_	_	_	case	_	_	_
+1987	1987	Z	_	_	_	nmod	_	_	_
+em	em	SP	_	_	_	case	_	_	_
+o	o	DA0MS0	_	_	_	det	_	_	_
+curso	curso	NCMS000	_	_	_	nmod	_	_	_
+de	de	SP	_	_	_	case	_	_	_
+direito	direito	NCMS000	_	_	_	nmod	_	_	_
+de	de	SP	_	_	_	case	_	_	_
+a	o	DA0FS0	_	_	_	det	_	_	_
+Universidade_do_Estado_do_Rio	universidade_do_estado_do_rio	NP00000	_	_	_	nmod	_	pessoa	_
+de	de	SP	_	_	_	nmod	_	_	_
+Janeiro	[??:??/1/??:??.??:??]	W	_	_	_	nmod	_	_	_
+(	(	Fpa	_	_	_	nmod	_	_	_
+UERJ	uerj	NP00000	_	_	_	conj	_	pessoa	_
+)	)	Fpt	_	_	_	conj	_	_	_
+,	,	Fc	_	_	_	conj	_	_	_
+por	por	SP	_	_	_	conj	_	_	_
+a	o	DA0FS0	_	_	_	det	_	_	_
+qual	qual	PR0CS00	_	_	_	nmod	_	_	_
+se	se	PP3CN00	_	_	_	nsubj	_	_	_
+formou	formar	VMIS3S0	_	_	_	acl:relcl	_	_	_
+em	em	SP	_	_	_	conj	_	_	_
+1991	1991	Z	_	_	_	nmod	_	_	_
+.	.	Fp	_	_	_	nmod	_	_	_
+</s>
+
+<s>
+Em	em	SP	_	_	_	case	_	_	_
+este	este	DD0MS0	_	_	_	nmod	_	_	_
+ano	ano	NCMS000	_	_	_	nmod	_	_	_
+regressou	regressar	VMIS3S0	_	_	_	root	_	_	_
+a	o	DA0FS0	_	_	_	det	_	_	_
+Campo_Grande	campo_grande	NP00000	_	_	_	dobj	_	pessoa	_
+,	,	Fc	_	_	_	acl:relcl	_	_	_
+onde	onde	RG	_	_	_	advmod	_	_	_
+passou	passar	VMIS3S0	_	_	_	acl:relcl	_	_	_
+a	a	SP	_	_	_	mark	_	_	_
+exercer	exercer	VMN0000	_	_	_	xcomp	_	_	_
+a	o	DA0FS0	_	_	_	det	_	_	_
+advocacia	advocacia	NCFS000	_	_	_	dobj	_	_	_
+.	.	Fp	_	_	_	acl:relcl	_	_	_
+</s>
+
+<s>
+Em	em	SP	_	_	_	case	_	_	_
+o	o	DA0MS0	_	_	_	det	_	_	_
+começo	começo	NCMS000	_	_	_	nmod	_	_	_
+de	de	SP	_	_	_	case	_	_	_
+sua	seu	DP3FSS	_	_	_	det	_	_	_
+vida	vida	NCFS000	_	_	_	nmod	_	_	_
+profissional	profissional	AQ0CS00	_	_	_	amod	_	_	_
+Fábio_Trad	fábio_trad	NP00000	_	_	_	appos	_	pessoa	_
+foi	ir	VMIS3S0	_	_	_	root	_	_	_
+indicado	indicar	VMP00SM	_	_	_	xcomp	_	_	_
+como	como	CS	_	_	_	mark	_	_	_
+advogado	advogado	NCMS000	_	_	_	xcomp	_	_	_
+dativo	dativo	AQ0MS00	_	_	_	xcomp	_	_	_
+de	de	SP	_	_	_	case	_	_	_
+vários	vários	DI0MP0	_	_	_	det	_	_	_
+acusados	acusado	NCMP000	_	_	_	nmod:npmod	_	_	_
+pobres	pobre	AQ0CP00	_	_	_	amod	_	_	_
+,	,	Fc	_	_	_	acl	_	_	_
+sendo	ser	VMG0000	_	_	_	conj	_	_	_
+,	,	Fc	_	_	_	conj	_	_	_
+em	em	SP	_	_	_	case	_	_	_
+1994	1994	Z	_	_	_	nmod	_	_	_
+,	,	Fc	_	_	_	advcl	_	_	_
+nomeado	nomear	VMP00SM	_	_	_	acl	_	_	_
+membro	membro	NCMS000	_	_	_	xcomp	_	_	_
+titular	titular	AQ0CS00	_	_	_	amod	_	_	_
+de	de	SP	_	_	_	case	_	_	_
+o	o	DA0MS0	_	_	_	det	_	_	_
+Conselho_Penitenciário_de_Mato_Grosso_do_Sul	conselho_penitenciário_de_mato_grosso_do_sul	NP00000	_	_	_	nmod	_	pessoa	_
+.	.	Fp	_	_	_	nmod	_	_	_
+</s>
+
+<s>
+Em	em	SP	_	_	_	case	_	_	_
+1996	1996	Z	_	_	_	nmod	_	_	_
+,	,	Fc	_	_	_	nmod	_	_	_
+começou	começar	VMIS3S0	_	_	_	parataxis	_	_	_
+a	a	SP	_	_	_	mark	_	_	_
+atuar	atuar	VMN0000	_	_	_	xcomp	_	_	_
+como	como	CS	_	_	_	dep	_	_	_
+professor	professor	NCMS000	_	_	_	nsubj	_	_	_
+de	de	SP	_	_	_	case	_	_	_
+direito	direito	NCMS000	_	_	_	nmod	_	_	_
+penal	penal	AQ0CS00	_	_	_	amod	_	_	_
+em	em	SP	_	_	_	case	_	_	_
+diversas	diverso	AQ0FP00	_	_	_	nmod	_	_	_
+universidades	universidade	NCFP000	_	_	_	nmod	_	_	_
+,	,	Fc	_	_	_	conj	_	_	_
+tanto	tanto	RG	_	_	_	advmod	_	_	_
+em	em	SP	_	_	_	case	_	_	_
+a	o	DA0FS0	_	_	_	det	_	_	_
+graduação	graduação	NCFS000	_	_	_	root	_	_	_
+como	como	RG	_	_	_	advmod	_	_	_
+em	em	SP	_	_	_	case	_	_	_
+a	o	DA0FS0	_	_	_	det	_	_	_
+pós-graduação	pós-graduação	NCFS000	_	_	_	nmod	_	_	_
+.	.	Fp	_	_	_	advmod	_	_	_
+</s>
+
+<s>
+Em	em	SP	_	_	_	case	_	_	_
+2001	2001	Z	_	_	_	nmod	_	_	_
+,	,	Fc	_	_	_	nmod	_	_	_
+ano	ano	NCMS000	_	_	_	xcomp	_	_	_
+em	em	SP	_	_	_	mark	_	_	_
+que	que	PR0CN00	_	_	_	nmod	_	_	_
+se	se	PP3CN00	_	_	_	nsubj	_	_	_
+afastou	afastar	VMIS3S0	_	_	_	acl:relcl	_	_	_
+de	de	SP	_	_	_	case	_	_	_
+o	o	DA0MS0	_	_	_	det	_	_	_
+conselho	conselho	NCMS000	_	_	_	nmod	_	_	_
+Penitenciário	penitenciário	NP00000	_	_	_	appos	_	pessoa	_
+,	,	Fc	_	_	_	acl	_	_	_
+foi	ir	VMIS3S0	_	_	_	acl	_	_	_
+eleito	eleito	AQ0MS00	_	_	_	xcomp	_	_	_
+conselheiro	conselheiro	NCMS000	_	_	_	root	_	_	_
+de	de	SP	_	_	_	case	_	_	_
+a	o	DA0FS0	_	_	_	det	_	_	_
+Ordem_dos_Advogados_do_Brasil	ordem_dos_advogados_do_brasil	NP00000	_	_	_	nmod	_	pessoa	_
+(	(	Fpa	_	_	_	advcl	_	_	_
+OAB	oab	NP00000	_	_	_	appos	_	pessoa	_
+)	)	Fpt	_	_	_	advcl	_	_	_
+–	–	Fz	_	_	_	punct	_	_	_
+Seccional_Mato_Grosso_do_Sul	seccional_mato_grosso_do_sul	NP00000	_	_	_	appos	_	pessoa	_
+,	,	Fc	_	_	_	xcomp	_	_	_
+função	função	NCFS000	_	_	_	appos	_	_	_
+que	que	PR0CN00	_	_	_	nsubj	_	_	_
+exerceu	exercer	VMIS3S0	_	_	_	acl:relcl	_	_	_
+até	até	SP	_	_	_	nmod	_	_	_
+2003	2003	Z	_	_	_	nmod	_	_	_
+.	.	Fp	_	_	_	nmod	_	_	_
+</s>
+
+<s>
+Em	em	SP	_	_	_	case	_	_	_
+este	este	DD0MS0	_	_	_	nmod	_	_	_
+cargo	cargo	NCMS000	_	_	_	nmod	_	_	_
+,	,	Fc	_	_	_	dobj	_	_	_
+Fábio_Trad	fábio_trad	NP00000	_	_	_	nsubj	_	pessoa	_
+participou	participar	VMIS3S0	_	_	_	root	_	_	_
+de	de	SP	_	_	_	case	_	_	_
+a	o	DA0FS0	_	_	_	det	_	_	_
+criação	criação	NCFS000	_	_	_	nmod	_	_	_
+,	,	Fc	_	_	_	dep	_	_	_
+implementação	implementação	NCFS000	_	_	_	conj	_	_	_
+e	e	CC	_	_	_	cc	_	_	_
+consolidação	consolidação	NCFS000	_	_	_	conj	_	_	_
+de	de	SP	_	_	_	case	_	_	_
+o	o	DA0MS0	_	_	_	det	_	_	_
+Programa_OAB	programa_oab	NP00000	_	_	_	nmod	_	pessoa	_
+vai	ir	VMIP3S0	_	_	_	parataxis	_	_	_
+a	a	SP	_	_	_	case	_	_	_
+a	o	DA0FS0	_	_	_	det	_	_	_
+Escola	escola	NP00000	_	_	_	nmod	_	pessoa	_
+.	.	Fp	_	_	_	nmod	_	_	_
+</s>
+
+<s>
+Foi	ir	VMIS3S0	_	_	_	root	_	_	_
+também	também	RG	_	_	_	advmod	_	_	_
+o	o	DA0MS0	_	_	_	det	_	_	_
+idealizador	idealizador	NCMS000	_	_	_	nsubj	_	_	_
+de	de	SP	_	_	_	case	_	_	_
+o	o	DA0MS0	_	_	_	det	_	_	_
+Simpósio_de_Direito_Penal_para_Mato_Grosso_do_Sul	simpósio_de_direito_penal_para_mato_grosso_do_sul	NP00000	_	_	_	nmod	_	pessoa	_
+,	,	Fc	_	_	_	conj	_	_	_
+que	que	PR0CN00	_	_	_	nsubj	_	_	_
+a	a	SP	_	_	_	case	_	_	_
+cada	cada	DI0CN0	_	_	_	nmod	_	_	_
+biênio	biênio	NCMS000	_	_	_	nmod	_	_	_
+ímpar	ímpar	AQ0CS00	_	_	_	amod	_	_	_
+reúne	reunir	VMIP3S0	_	_	_	acl:relcl	_	_	_
+em	em	SP	_	_	_	case	_	_	_
+o	o	DA0MS0	_	_	_	det	_	_	_
+estado	estado	NCMS000	_	_	_	nmod	_	_	_
+as	o	DA0FP0	_	_	_	det	_	_	_
+principais	principal	AQ0CP00	_	_	_	amod	_	_	_
+expressões	expressão	NCFP000	_	_	_	nmod	_	_	_
+intelectuais	intelectual	AQ0CP00	_	_	_	amod	_	_	_
+de	de	SP	_	_	_	case	_	_	_
+políticas	política	NCFP000	_	_	_	nmod	_	_	_
+de	de	SP	_	_	_	case	_	_	_
+o	o	DA0MS0	_	_	_	det	_	_	_
+sistema	sistema	NCMS000	_	_	_	nmod	_	_	_
+penal	penal	AQ0CS00	_	_	_	amod	_	_	_
+nacional	nacional	AQ0CS00	_	_	_	amod	_	_	_
+e	e	CC	_	_	_	cc	_	_	_
+internacional	internacional	AQ0CS00	_	_	_	conj	_	_	_
+.	.	Fp	_	_	_	conj	_	_	_
+</s>
+
+<s>
+Em	em	SP	_	_	_	case	_	_	_
+2006	2006	Z	_	_	_	nmod	_	_	_
+foi	ir	VMIS3S0	_	_	_	parataxis	_	_	_
+eleito	eleito	AQ0MS00	_	_	_	xcomp	_	_	_
+presidente	presidente	NCMS000	_	_	_	root	_	_	_
+de	de	SP	_	_	_	case	_	_	_
+a	o	DA0FS0	_	_	_	det	_	_	_
+OAB	oab	NP00000	_	_	_	nmod	_	pessoa	_
+–	–	Fz	_	_	_	punct	_	_	_
+Seccional_Mato_Grosso_do_Sul	seccional_mato_grosso_do_sul	NP00000	_	_	_	nmod	_	pessoa	_
+para	para	SP	_	_	_	case	_	_	_
+o	o	DA0MS0	_	_	_	det	_	_	_
+triênio	triênio	NCMS000	_	_	_	nmod	_	_	_
+2007	2007	Z	_	_	_	dep	_	_	_
+a	a	SP	_	_	_	case	_	_	_
+2009	2009	Z	_	_	_	nmod	_	_	_
+.	.	Fp	_	_	_	nmod	_	_	_
+</s>
+
+<s>
+Em	em	SP	_	_	_	case	_	_	_
+2009	2009	Z	_	_	_	nmod	_	_	_
+se	se	PP3CN00	_	_	_	nmod	_	_	_
+filiou	filiar	VMIS3S0	_	_	_	parataxis	_	_	_
+a	a	SP	_	_	_	case	_	_	_
+o	o	DA0MS0	_	_	_	det	_	_	_
+Partido_do_Movimento_Democrático_Brasileiro	partido_do_movimento_democrático_brasileiro	NP00000	_	_	_	nmod	_	pessoa	_
+(	(	Fpa	_	_	_	conj	_	_	_
+PMDB	pmdb	NP00000	_	_	_	remnant	_	pessoa	_
+)	)	Fpt	_	_	_	conj	_	_	_
+,	,	Fc	_	_	_	conj	_	_	_
+candidatando	candidatar	VMG0000	_	_	_	conj	_	_	_
+se	se	PP3CN00	_	_	_	dobj	_	_	_
+em	em	SP	_	_	_	case	_	_	_
+o	o	DA0MS0	_	_	_	det	_	_	_
+ano	ano	NCMS000	_	_	_	nmod	_	_	_
+seguinte	seguinte	AQ0CS00	_	_	_	dobj	_	_	_
+a	a	SP	_	_	_	case	_	_	_
+uma	um	DI0FS0	_	_	_	nmod	_	_	_
+vaga	vaga	NCFS000	_	_	_	nmod	_	_	_
+de	de	SP	_	_	_	case	_	_	_
+deputado	deputado	NCMS000	_	_	_	nmod	_	_	_
+federal	federal	AQ0CS00	_	_	_	amod	_	_	_
+por	por	SP	_	_	_	case	_	_	_
+o	o	DA0MS0	_	_	_	det	_	_	_
+estado	estado	NCMS000	_	_	_	root	_	_	_
+de	de	SP	_	_	_	nmod	_	_	_
+Mato_Grosso_do_Sul	mato_grosso_do_sul	NP00000	_	_	_	nmod	_	pessoa	_
+em	em	SP	_	_	_	case	_	_	_
+as	o	DA0FP0	_	_	_	det	_	_	_
+eleições	eleição	NCFP000	_	_	_	nmod	_	_	_
+gerais	geral	AQ0CP00	_	_	_	amod	_	_	_
+de	de	SP	_	_	_	nmod	_	_	_
+2010	2010	Z	_	_	_	nmod	_	_	_
+.	.	Fp	_	_	_	nmod	_	_	_
+</s>
+
+<s>
+Primeira	primeiro	AO0FS00	_	_	_	dep	_	_	_
+eleição	eleição	NCFS000	_	_	_	nsubj	_	_	_
+sem	sem	SP	_	_	_	case	_	_	_
+a	o	DA0FS0	_	_	_	det	_	_	_
+participação	participação	NCFS000	_	_	_	nmod	_	_	_
+direta	direta	NCFS000	_	_	_	nmod:npmod	_	_	_
+de	de	SP	_	_	_	case	_	_	_
+o	o	DA0MS0	_	_	_	det	_	_	_
+ex	ex	AQ0CN00	_	_	_	amod	_	_	_
+presidente	presidente	NCMS000	_	_	_	nsubj	_	_	_
+Luis_Inácio_Lula_da_Silva	luis_inácio_lula_da_silva	NP00000	_	_	_	appos	_	pessoa	_
+desde	desde	SP	_	_	_	case	_	_	_
+1989	1989	Z	_	_	_	nmod	_	_	_
+,	,	Fc	_	_	_	nmod	_	_	_
+este	este	DD0MS0	_	_	_	conj	_	_	_
+pleito	pleito	NCMS000	_	_	_	nsubj	_	_	_
+foi	ir	VMIS3S0	_	_	_	root	_	_	_
+vencido	vencer	VMP00SM	_	_	_	xcomp	_	_	_
+por	por	SP	_	_	_	case	_	_	_
+sua	seu	DP3FSS	_	_	_	dep	_	_	_
+ex-ministra-chefe	ex-ministra-chefe	NCMS000	_	_	_	nmod	_	_	_
+de	de	SP	_	_	_	case	_	_	_
+a	o	DA0FS0	_	_	_	det	_	_	_
+Casa_Civil	casa_civil	NP00000	_	_	_	nmod	_	pessoa	_
+,	,	Fc	_	_	_	conj	_	_	_
+Dilma_Rousseff	dilma_rousseff	NP00000	_	_	_	conj	_	pessoa	_
+,	,	Fc	_	_	_	conj	_	_	_
+a	a	SP	_	_	_	case	_	_	_
+a	o	DA0FS0	_	_	_	det	_	_	_
+frente	frente	NCFS000	_	_	_	nmod	_	_	_
+de	de	SP	_	_	_	case	_	_	_
+uma	um	DI0FS0	_	_	_	det	_	_	_
+coligação	coligação	NCFS000	_	_	_	nmod	_	_	_
+que	que	PR0CN00	_	_	_	nsubj	_	_	_
+reuniu	reunir	VMIS3S0	_	_	_	acl:relcl	_	_	_
+10	10	Z	_	_	_	dobj	_	_	_
+partidos	partido	NCMP000	_	_	_	dobj	_	_	_
+(	(	Fpa	_	_	_	dobj	_	_	_
+Partido_dos_Trabalhadores-PT	partido_dos_trabalhadores-pt	NP00000	_	_	_	appos	_	pessoa	_
+/	/	Fh	_	_	_	advcl	_	_	_
+Partido_do_Movimento_Democrático_Brasileiro-PMDB	partido_do_movimento_democrático_brasileiro-pmdb	NP00000	_	_	_	conj	_	pessoa	_
+/	/	Fh	_	_	_	dobj	_	_	_
+Partido_Democrático_Trabalhista-PDT	partido_democrático_trabalhista-pdt	NP00000	_	_	_	nmod:npmod	_	pessoa	_
+/	/	Fh	_	_	_	xcomp	_	_	_
+Partido_Socialista_Brasileiro-PSB	partido_socialista_brasileiro-psb	NP00000	_	_	_	conj	_	pessoa	_
+/	/	Fh	_	_	_	dobj	_	_	_
+Partido_Comunista_do_Brasil-PCdoB	partido_comunista_do_brasil-pcdob	NP00000	_	_	_	nmod:npmod	_	pessoa	_
+/	/	Fh	_	_	_	xcomp	_	_	_
+Partido_Republicano_Brasileiro-PRB	partido_republicano_brasileiro-prb	NP00000	_	_	_	conj	_	pessoa	_
+/	/	Fh	_	_	_	dobj	_	_	_
+Partido_da_República-PR	partido_da_república-pr	NP00000	_	_	_	nmod:npmod	_	pessoa	_
+/	/	Fh	_	_	_	xcomp	_	_	_
+Partido_Trabalhista_Nacional-PTN	partido_trabalhista_nacional-ptn	NP00000	_	_	_	conj	_	pessoa	_
+/	/	Fh	_	_	_	dobj	_	_	_
+Partido_Social_Cristão-PSC	partido_social_cristão-psc	NP00000	_	_	_	nmod:npmod	_	pessoa	_
+/	/	Fh	_	_	_	xcomp	_	_	_
+Partido_Trabalhista_Cristão-PTC	partido_trabalhista_cristão-ptc	NP00000	_	_	_	conj	_	pessoa	_
+)	)	Fpt	_	_	_	xcomp	_	_	_
+.	.	Fp	_	_	_	dobj	_	_	_
+</s>
+
+<s>
+Após	após	SP	_	_	_	case	_	_	_
+o	o	DA0MS0	_	_	_	det	_	_	_
+pleito	pleito	NCMS000	_	_	_	nmod	_	_	_
+,	,	Fc	_	_	_	dep	_	_	_
+a	o	DA0FS0	_	_	_	det	_	_	_
+bancada	bancada	NCFS000	_	_	_	nsubj	_	_	_
+de	de	SP	_	_	_	nmod	_	_	_
+o	o	DA0MS0	_	_	_	det	_	_	_
+PMDB	pmdb	NP00000	_	_	_	nmod	_	pessoa	_
+em	em	SP	_	_	_	case	_	_	_
+a	o	DA0FS0	_	_	_	det	_	_	_
+Câmara_dos_Deputados	câmara_dos_deputados	NP00000	_	_	_	nmod	_	pessoa	_
+configurou	configurar	VMIS3S0	_	_	_	root	_	_	_
+se	se	PP3CN00	_	_	_	dobj	_	_	_
+como	como	CS	_	_	_	mark	_	_	_
+a	o	DA0FS0	_	_	_	det	_	_	_
+segunda	segundo	AO0FS00	_	_	_	xcomp	_	_	_
+maior	maior	AQ0CS00	_	_	_	xcomp	_	_	_
+,	,	Fc	_	_	_	xcomp	_	_	_
+logo	logo	RG	_	_	_	advmod	_	_	_
+atrás	atrás	RG	_	_	_	advmod	_	_	_
+de	de	SP	_	_	_	case	_	_	_
+a	o	DA0FS0	_	_	_	det	_	_	_
+de	de	SP	_	_	_	nmod	_	_	_
+o	o	DA0MS0	_	_	_	det	_	_	_
+PT	pt	NP00000	_	_	_	conj	_	pessoa	_
+,	,	Fc	_	_	_	conj	_	_	_
+com	com	SP	_	_	_	case	_	_	_
+79	79	Z	_	_	_	nmod	_	_	_
+deputados	deputado	NCMP000	_	_	_	nmod	_	_	_
+eleitos	eleito	AQ0MP00	_	_	_	amod	_	_	_
+.	.	Fp	_	_	_	conj	_	_	_
+</s>
+
+<s>
+Fábio_Trad	fábio_trad	NP00000	_	_	_	nsubj	_	pessoa	_
+foi	ir	VMIS3S0	_	_	_	root	_	_	_
+eleito	eleito	NCMS000	_	_	_	xcomp	_	_	_
+com	com	SP	_	_	_	case	_	_	_
+82.121	82121	Z	_	_	_	dep	_	_	_
+votos	voto	NCMP000	_	_	_	nmod	_	_	_
+.	.	Fp	_	_	_	advcl	_	_	_
+</s>
+
+<s>
+Em	em	SP	_	_	_	mark	_	_	_
+2014	2014	Z	_	_	_	nmod	_	_	_
+,	,	Fc	_	_	_	nmod	_	_	_
+voltou	voltar	VMIS3S0	_	_	_	root	_	_	_
+a	a	SP	_	_	_	case	_	_	_
+se	se	PP3CN00	_	_	_	nmod	_	_	_
+candidatar	candidatar	VMN0000	_	_	_	advcl	_	_	_
+como	como	CS	_	_	_	mark	_	_	_
+deputado	deputado	NCMS000	_	_	_	nsubj	_	_	_
+federal	federal	AQ0CS00	_	_	_	amod	_	_	_
+,	,	Fc	_	_	_	conj	_	_	_
+novamente	novamente	RG	_	_	_	advmod	_	_	_
+em	em	SP	_	_	_	case	_	_	_
+a	o	DA0FS0	_	_	_	det	_	_	_
+legenda	legenda	NCFS000	_	_	_	nmod	_	_	_
+de	de	SP	_	_	_	case	_	_	_
+o	o	DA0MS0	_	_	_	det	_	_	_
+PMDB	pmdb	NP00000	_	_	_	nmod	_	pessoa	_
+,	,	Fc	_	_	_	conj	_	_	_
+mas	mas	CC	_	_	_	cc	_	_	_
+não	não	RN	_	_	_	conj	_	_	_
+logrou	lograr	VMIS3S0	_	_	_	conj	_	_	_
+ser	ser	VMN0000	_	_	_	xcomp	_	_	_
+eleito	eleito	AQ0MS00	_	_	_	dep	_	_	_
+.	.	Fp	_	_	_	csubj	_	_	_
+</s>
+
+<s>
+Desfiliou	desfiliar	VMIS3S0	_	_	_	root	_	_	_
+se	se	PP3CN00	_	_	_	nsubj	_	_	_
+de	de	SP	_	_	_	case	_	_	_
+o	o	DA0MS0	_	_	_	det	_	_	_
+PMDB	pmdb	NP00000	_	_	_	nmod	_	pessoa	_
+em	em	SP	_	_	_	case	_	_	_
+2015	2015	Z	_	_	_	nmod	_	_	_
+,	,	Fc	_	_	_	nmod	_	_	_
+ano	ano	NCMS000	_	_	_	xcomp	_	_	_
+em	em	SP	_	_	_	case	_	_	_
+que	que	PR0CN00	_	_	_	nmod	_	_	_
+também	também	RG	_	_	_	advmod	_	_	_
+deixou	deixar	VMIS3S0	_	_	_	acl:relcl	_	_	_
+a	o	DA0FS0	_	_	_	det	_	_	_
+vida	vida	NCFS000	_	_	_	dobj	_	_	_
+pública	público	AQ0FS00	_	_	_	xcomp	_	_	_
+,	,	Fc	_	_	_	acl	_	_	_
+retomando	retomar	VMG0000	_	_	_	acl	_	_	_
+suas	seu	DP3FSP	_	_	_	dobj	_	_	_
+atividades	atividade	NCFP000	_	_	_	dobj	_	_	_
+como	como	CS	_	_	_	dep	_	_	_
+advogado	advogado	NCMS000	_	_	_	nmod:npmod	_	_	_
+e	e	CC	_	_	_	cc	_	_	_
+professor	professor	NCMS000	_	_	_	conj	_	_	_
+.	.	Fp	_	_	_	conj	_	_	_
+</s>
+
+<s>
+Casou	casar	VMIS3S0	_	_	_	root	_	_	_
+se	se	PP3CN00	_	_	_	nsubj	_	_	_
+com	com	SP	_	_	_	case	_	_	_
+Roberta_Varela_Trad	roberta_varela_trad	NP00000	_	_	_	nmod	_	pessoa	_
+com	com	SP	_	_	_	mark	_	_	_
+quem	quem	PR0CN00	_	_	_	nsubj	_	_	_
+teve	ter	VMIS3S0	_	_	_	acl:relcl	_	_	_
+três	3	Z	_	_	_	dobj	_	_	_
+filhos	filho	NCMP000	_	_	_	dobj	_	_	_
+.	.	Fp	_	_	_	acl	_	_	_
+</s>
+
+<s>
+Coordenou	coordenar	VMIS3S0	_	_	_	root	_	_	_
+,	,	Fc	_	_	_	advmod	_	_	_
+em	em	SP	_	_	_	case	_	_	_
+2015	2015	Z	_	_	_	nmod	_	_	_
+,	,	Fc	_	_	_	nmod	_	_	_
+o	o	DA0MS0	_	_	_	det	_	_	_
+livro	livro	NCMS000	_	_	_	appos	_	_	_
+*	*	Fz	_	_	_	punct	_	_	_
+O	o	NP00000	_	_	_	appos	_	pessoa	_
+advogado	advogado	NCMS000	_	_	_	appos	_	_	_
+,	,	Fc	_	_	_	parataxis	_	_	_
+o	o	DA0MS0	_	_	_	det	_	_	_
+promotor	promotor	NCMS000	_	_	_	appos	_	_	_
+de	de	SP	_	_	_	case	_	_	_
+justiça	justiça	NCFS000	_	_	_	nmod	_	_	_
+e	e	CC	_	_	_	cc	_	_	_
+o	o	DA0MS0	_	_	_	det	_	_	_
+juiz	juiz	NCMS000	_	_	_	conj	_	_	_
+em	em	SP	_	_	_	case	_	_	_
+o	o	DA0MS0	_	_	_	det	_	_	_
+tribunal	tribunal	NCMS000	_	_	_	conj	_	_	_
+de	de	SP	_	_	_	case	_	_	_
+o	o	DA0MS0	_	_	_	det	_	_	_
+júri	júri	NCMS000	_	_	_	nmod	_	_	_
+*	*	Fz	_	_	_	punct	_	_	_
+.	.	Fp	_	_	_	acl	_	_	_
+</s>
+
+<s>
+Tem	ter	VMIP3S0	_	_	_	root	_	_	_
+também	também	RG	_	_	_	advmod	_	_	_
+a	o	DA0FS0	_	_	_	det	_	_	_
+autoria	autoria	NCFS000	_	_	_	dobj	_	_	_
+de	de	SP	_	_	_	case	_	_	_
+diversos	diverso	AQ0MP00	_	_	_	amod	_	_	_
+artigos	artigo	NCMP000	_	_	_	nmod	_	_	_
+,	,	Fc	_	_	_	advmod	_	_	_
+disponibilizados	disponibilizar	VMP00PM	_	_	_	acl	_	_	_
+em	em	SP	_	_	_	case	_	_	_
+seu	seu	DP3MSS	_	_	_	acl	_	_	_
+site	site	NCMS000	_	_	_	nmod	_	_	_
+.	.	Fp	_	_	_	acl	_	_	_
+</s>

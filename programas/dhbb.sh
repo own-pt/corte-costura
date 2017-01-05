@@ -13,5 +13,5 @@ export DIR_CORTECOSTURA=/Users/arademaker/work/corte-e-costura-1.0
 
 echo "ACDC_CORTE-E-COSTURA_TESTE com profundidade 1: resultado em corpus_cor"
 
-cat 12166-edited.conllu | $DIR_CORTECOSTURA/programas/acdc_corte-e-costura.pl -r regra.txt -p 1 -l log_regras_teste -i 1 -a 1 > 12166-annotated.txt
+cat 12166-edited.conllu | $DIR_CORTECOSTURA/programas/acdc_corte-e-costura.pl -r regra.txt -p 1 -l 12166.log -i 1 -a 1 > 12166-annotated.txt
 
